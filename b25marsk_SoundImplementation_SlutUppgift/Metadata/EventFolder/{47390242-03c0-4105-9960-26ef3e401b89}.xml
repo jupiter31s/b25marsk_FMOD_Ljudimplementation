@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{47390242-03c0-4105-9960-26ef3e401b89}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
+		<property name="name">
+			<value>Destructable Wall</value>
+		</property>
+		<relationship name="folder">
+			<destination>{872623f5-cbe1-4d27-8d5b-c8383528e65e}</destination>
+		</relationship>
+	</object>
+</objects>
