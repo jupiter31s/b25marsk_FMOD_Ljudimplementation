@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a9388c0b-5413-4062-9820-fc08a047e209}">
+		<property name="color">
+			<value>Cyan Light 2</value>
+		</property>
 		<property name="name">
 			<value>menu_button_click</value>
 		</property>
