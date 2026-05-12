@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EventFolder" id="{206ddbd3-e506-4e3a-a5fb-920caa416994}">
+	<object class="EventFolder" id="{511118c3-229d-4228-a047-c1047391c300}">
 		<property name="color">
-			<value>Cyan</value>
+			<value>Cyan Light 1</value>
 		</property>
 		<property name="name">
-			<value>Health</value>
+			<value>Pick-up</value>
 		</property>
 		<relationship name="folder">
-			<destination>{872623f5-cbe1-4d27-8d5b-c8383528e65e}</destination>
+			<destination>{1eb2c05d-f3c6-4999-ba7e-a53b38eea6cd}</destination>
 		</relationship>
 	</object>
 </objects>
