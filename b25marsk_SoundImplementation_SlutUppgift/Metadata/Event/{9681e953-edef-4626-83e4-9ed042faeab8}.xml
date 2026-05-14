@@ -8,7 +8,7 @@
 			<value>Ambience Outside</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{37307788-24da-4d43-a45a-e3e4d2542f20}</destination>
@@ -62,17 +62,23 @@
 	<object class="EventAutomatableProperties" id="{e6bd04e3-4ca8-42b8-9d21-bfb69da206ef}" />
 	<object class="MarkerTrack" id="{ecc85865-9235-4a35-aace-8a082b97b601}" />
 	<object class="GroupTrack" id="{a113946a-443d-42df-89f0-d1cfcffb3cc1}">
+<<<<<<< HEAD
+=======
 		<relationship name="modules">
 			<destination>{2ee97b9e-1601-4098-8ce2-da4b3e7531b3}</destination>
 		</relationship>
+>>>>>>> parent of 5e6e437 (added files)
 		<relationship name="mixerGroup">
 			<destination>{a33b19ff-62d7-4403-ae51-fbcd5b11e930}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{15e06d3e-f49a-4baf-934c-a3e5367f4641}">
+<<<<<<< HEAD
+=======
 		<relationship name="modules">
 			<destination>{2ee97b9e-1601-4098-8ce2-da4b3e7531b3}</destination>
 		</relationship>
+>>>>>>> parent of 5e6e437 (added files)
 		<relationship name="markers">
 			<destination>{6a13d097-f524-4516-b65b-7ef588995517}</destination>
 		</relationship>
@@ -94,6 +100,8 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{10eb924c-85fd-4807-aaab-a7b2ba44629b}" />
+<<<<<<< HEAD
+=======
 	<object class="SingleSound" id="{2ee97b9e-1601-4098-8ce2-da4b3e7531b3}">
 		<property name="length">
 			<value>48</value>
@@ -102,6 +110,7 @@
 			<destination>{e431ed3e-712f-4e4d-9256-21d228d499c3}</destination>
 		</relationship>
 	</object>
+>>>>>>> parent of 5e6e437 (added files)
 	<object class="EventMixerGroup" id="{a33b19ff-62d7-4403-ae51-fbcd5b11e930}">
 		<property name="name">
 			<value>Audio 1</value>

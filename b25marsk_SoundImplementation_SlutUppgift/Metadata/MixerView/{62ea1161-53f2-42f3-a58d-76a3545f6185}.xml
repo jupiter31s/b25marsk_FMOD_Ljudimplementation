@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>PlayerSFX</value>
 		</property>
+		<relationship name="assignedStrips">
+			<destination>{b3c08fe4-9672-47cd-a0f9-f6245e6a476a}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
 		</relationship>
