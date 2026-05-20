@@ -8,7 +8,7 @@
 			<value>AMB MANAGER</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{37307788-24da-4d43-a45a-e3e4d2542f20}</destination>
@@ -65,12 +65,18 @@
 	<object class="EventAutomatableProperties" id="{eef17211-7b1c-49f8-99c1-4df558a9f97a}" />
 	<object class="MarkerTrack" id="{e3f8e34b-e04e-4a52-93ea-d6b3ccbc0ce8}" />
 	<object class="GroupTrack" id="{21dbaeaf-0ba8-4e34-bc95-83b021541665}">
+		<relationship name="modules">
+			<destination>{86fa65cb-c78a-469a-b3b7-464d5ae9d48a}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{41a1367b-612d-4bc8-8077-9a76e0deaf0b}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{741052b6-21e6-40dd-9ee6-9e7482c0625d}" />
 	<object class="ParameterProxy" id="{42d5f40b-2760-4187-b35e-acfcaaa95194}">
+		<relationship name="modules">
+			<destination>{86fa65cb-c78a-469a-b3b7-464d5ae9d48a}</destination>
+		</relationship>
 		<relationship name="preset">
 			<destination>{8119630d-bae1-4d76-8185-215f6452b03f}</destination>
 		</relationship>
@@ -92,6 +98,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c037ce0d-2a4e-4ab1-9d2e-89e0bb03361a}" />
+	<object class="EventSound" id="{86fa65cb-c78a-469a-b3b7-464d5ae9d48a}">
+		<relationship name="event">
+			<destination>{def53853-fa5d-4ad8-b916-2a9574271e79}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{41a1367b-612d-4bc8-8077-9a76e0deaf0b}">
 		<property name="name">
 			<value>Audio 1</value>
