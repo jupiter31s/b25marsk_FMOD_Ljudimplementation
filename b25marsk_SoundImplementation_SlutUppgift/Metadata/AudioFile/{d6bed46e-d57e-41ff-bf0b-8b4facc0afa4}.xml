@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d6bed46e-d57e-41ff-bf0b-8b4facc0afa4}">
 		<property name="assetPath">
-			<value>grus debris.WAV</value>
+			<value>Sounds/AMB/grus debris.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

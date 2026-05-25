@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{bb5359a0-fc3c-4486-b882-f86ed5199720}">
 		<property name="assetPath">
-			<value>Sounds/glass break.WAV</value>
+			<value>Sounds/AMB/glass break.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{1f337ead-69f5-4adc-bea8-ca368867310d}">
 		<property name="assetPath">
-			<value>grus drag w foot.WAV</value>
+			<value>Sounds/AMB/grus drag w foot.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

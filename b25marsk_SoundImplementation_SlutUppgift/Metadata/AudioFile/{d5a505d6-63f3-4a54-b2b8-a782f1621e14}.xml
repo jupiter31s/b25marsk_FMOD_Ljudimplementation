@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d5a505d6-63f3-4a54-b2b8-a782f1621e14}">
 		<property name="assetPath">
-			<value>voice boing.WAV</value>
+			<value>Sounds/AMB/voice boing.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ee63182c-8954-427b-bbf8-682688610629}">
 		<property name="assetPath">
-			<value>Sounds/acidpoolbase.wav</value>
+			<value>Sounds/AMB/acidpoolbase.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
