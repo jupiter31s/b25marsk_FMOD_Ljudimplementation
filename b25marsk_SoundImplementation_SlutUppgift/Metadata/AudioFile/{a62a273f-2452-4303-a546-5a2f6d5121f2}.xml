@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a62a273f-2452-4303-a546-5a2f6d5121f2}">
 		<property name="assetPath">
-			<value>Sounds/SFX/Voice/avatar_panting_001.wav</value>
+			<value>Sounds/SFX/Voice/Player/avatar_panting_001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
