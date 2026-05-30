@@ -104,6 +104,9 @@
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
+		<relationship name="parameters">
+			<destination>{fe5cb568-2e56-4504-a1fb-28bd0eca7ddf}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{def53853-fa5d-4ad8-b916-2a9574271e79}</destination>
 		</relationship>
@@ -114,6 +117,9 @@
 		</property>
 		<property name="start">
 			<value>1</value>
+		</property>
+		<property name="volume">
+			<value>-4</value>
 		</property>
 		<relationship name="event">
 			<destination>{395ce892-cd1e-4c7d-8054-5d1265425bc8}</destination>
@@ -140,6 +146,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{735d3ab9-d5da-49e9-999a-ed7c073e439a}" />
 	<object class="MixerBusFader" id="{492ace96-7f15-4f4c-a029-3c6e2aff0f7a}" />
+	<object class="ParameterProperty" id="{fe5cb568-2e56-4504-a1fb-28bd0eca7ddf}">
+		<relationship name="parameter">
+			<destination>{7183dc6d-6c72-49c9-a853-3b058078f954}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{1c28c9bd-7411-4662-af6b-bc54f8747872}">
 		<relationship name="effects">
 			<destination>{2ea7632c-a4a1-4b98-9f79-298edc68a9d7}</destination>
