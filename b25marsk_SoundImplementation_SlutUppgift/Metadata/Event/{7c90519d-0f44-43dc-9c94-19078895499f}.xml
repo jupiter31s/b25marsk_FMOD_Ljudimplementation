@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7c90519d-0f44-43dc-9c94-19078895499f}">
 		<property name="note">
-			<value>Oneshot event for when avatar takes a footstep. Three parameters control the type of footstep surface.
+			<value>Oneshot event for when avatar takes a footstep. Three parameters control the type of footstep surface. Clothing sound effects, for Ellen's pouch has a 95% chance of being played. The clothing sound track also has a random pitch variation with 2.16 st.
 
 Surface 0 - Grass
 Surface 1 - Rock
@@ -84,6 +84,9 @@ Surface 2 - Metal
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{e5278150-a413-4d44-a851-5118a0100e66}">
+		<relationship name="modules">
+			<destination>{1c70f13e-3385-484b-b2a1-b6c94412a511}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c61122a0-3e51-4ea1-b425-5a894c6edc68}</destination>
 		</relationship>
@@ -94,6 +97,7 @@ Surface 2 - Metal
 			<destination>{89781bac-626b-4169-9b51-da92ea50330d}</destination>
 			<destination>{8f5d2819-48cf-48ab-8854-9b80934236f6}</destination>
 			<destination>{a6794d4c-4bea-4e7d-9e94-45a421118874}</destination>
+			<destination>{1c70f13e-3385-484b-b2a1-b6c94412a511}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{b22b6fa8-a336-4cff-bfb2-c33144d2a08e}</destination>
@@ -171,6 +175,28 @@ Surface 2 - Metal
 		</relationship>
 		<relationship name="output">
 			<destination>{65a2642f-00f1-4568-9a9c-4c47798b8d84}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{1c70f13e-3385-484b-b2a1-b6c94412a511}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>94.5</value>
+		</property>
+		<property name="length">
+			<value>3</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{525d9e23-9631-4674-9075-3c7639e4a637}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{014217c6-b0a1-4ca6-a63f-c6e2c7f9b87c}</destination>
+			<destination>{8ef28ad2-6448-4bba-8bb3-491145603756}</destination>
+			<destination>{7b79c01e-c1b6-457a-a479-573718569fe8}</destination>
+			<destination>{d2e55520-5994-4d5c-89f8-5bd69814398c}</destination>
+			<destination>{aa8a3d52-be79-4ee5-83b1-38b5685e950f}</destination>
+			<destination>{9272ccda-9c95-4a35-bbc9-dbb6af9c92d0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c61122a0-3e51-4ea1-b425-5a894c6edc68}">
@@ -322,16 +348,75 @@ Surface 2 - Metal
 	<object class="MixerBusEffectChain" id="{a23870fa-8386-4945-a925-f3d61c932297}">
 		<relationship name="effects">
 			<destination>{c5c1de9d-524e-4496-a7c3-853ac8d9f9f2}</destination>
+			<destination>{54cc3062-417d-4d27-b137-f8f01128299b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{92e0e0dc-c7a7-4a7c-81dd-3a0f73a9cc48}" />
+	<object class="RandomizerModulator" id="{525d9e23-9631-4674-9075-3c7639e4a637}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>4.5</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{014217c6-b0a1-4ca6-a63f-c6e2c7f9b87c}">
+		<relationship name="audioFile">
+			<destination>{0fb91270-43ef-4912-9533-550d5894f81c}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{8ef28ad2-6448-4bba-8bb3-491145603756}">
+		<relationship name="audioFile">
+			<destination>{8876acc5-fbc1-4536-808e-1c8e3ebd113f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{7b79c01e-c1b6-457a-a479-573718569fe8}">
+		<relationship name="audioFile">
+			<destination>{1cba745c-88ab-4475-ad85-5e6d8f18f691}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{d2e55520-5994-4d5c-89f8-5bd69814398c}">
+		<relationship name="audioFile">
+			<destination>{a80e49cb-91a2-4bbb-9219-256a576f8b71}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{aa8a3d52-be79-4ee5-83b1-38b5685e950f}">
+		<relationship name="audioFile">
+			<destination>{cb74fc63-db24-4212-b7b9-35d15613866c}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{9272ccda-9c95-4a35-bbc9-dbb6af9c92d0}">
+		<relationship name="audioFile">
+			<destination>{835d036e-c972-4bda-bffc-05de1743a010}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{83a4a145-0fac-43e5-9dcc-9b59ac929fb0}">
 		<relationship name="effects">
 			<destination>{86a3db94-5711-40d1-9d41-3770ef5fee45}</destination>
+			<destination>{5ddf4a0f-3294-4769-8adc-953e65a73cbd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{729825f9-ac8e-4ba5-89f6-ec265d8d1356}" />
 	<object class="MixerBusFader" id="{ea2d5d49-0cbb-4bae-8edc-e1c77db35994}" />
 	<object class="MixerBusFader" id="{c5c1de9d-524e-4496-a7c3-853ac8d9f9f2}" />
+	<object class="ThreeEQEffect" id="{54cc3062-417d-4d27-b137-f8f01128299b}">
+		<property name="lowGain">
+			<value>-5</value>
+		</property>
+		<property name="midGain">
+			<value>0.5</value>
+		</property>
+		<property name="highGain">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{86a3db94-5711-40d1-9d41-3770ef5fee45}" />
+	<object class="ThreeEQEffect" id="{5ddf4a0f-3294-4769-8adc-953e65a73cbd}">
+		<property name="lowGain">
+			<value>-6</value>
+		</property>
+		<property name="highGain">
+			<value>-1</value>
+		</property>
+	</object>
 </objects>
