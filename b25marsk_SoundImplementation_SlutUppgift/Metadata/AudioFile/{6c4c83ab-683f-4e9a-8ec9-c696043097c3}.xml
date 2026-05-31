@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{6c4c83ab-683f-4e9a-8ec9-c696043097c3}">
 		<property name="assetPath">
-			<value>Sounds/SFX/chewing_knackebrod_001.wav</value>
+			<value>Sounds/SFX/Random/chewing_knackebrod_001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

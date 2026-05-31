@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{d4ccc63c-0f88-4e34-82e7-330b294299c0}">
+		<property name="note">
+			<value>Folder for the ambiance of the games acid pools which are located in multiple areas.</value>
+		</property>
 		<property name="color">
 			<value>Green Light 2</value>
 		</property>

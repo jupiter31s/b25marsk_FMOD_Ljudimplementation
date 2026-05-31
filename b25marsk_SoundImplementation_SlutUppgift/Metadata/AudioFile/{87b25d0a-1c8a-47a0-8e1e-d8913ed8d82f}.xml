@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{87b25d0a-1c8a-47a0-8e1e-d8913ed8d82f}">
 		<property name="assetPath">
-			<value>cow bells.WAV</value>
+			<value>Sounds/SFX/Random/cow bells.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

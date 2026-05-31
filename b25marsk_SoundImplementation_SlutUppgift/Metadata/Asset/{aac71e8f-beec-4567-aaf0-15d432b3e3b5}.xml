@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EncodableAsset" id="{321dad27-428c-443a-9318-64c28e00018d}">
-		<property name="note">
-			<value>Folder with different footstep sounds for the avatar</value>
-		</property>
+	<object class="EncodableAsset" id="{aac71e8f-beec-4567-aaf0-15d432b3e3b5}">
 		<property name="assetPath">
-			<value>Sounds/SFX/Footsteps/</value>
+			<value>Sounds/SFX/Random/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

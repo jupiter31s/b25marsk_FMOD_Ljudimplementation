@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{b5046730-4fe2-4bcc-b60a-0d8bf8909616}">
+		<property name="note">
+			<value>Sound Design folder for The Explorer</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

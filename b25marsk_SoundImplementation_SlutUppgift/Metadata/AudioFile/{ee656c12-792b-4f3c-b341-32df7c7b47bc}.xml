@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{343eb76f-6b84-43e3-b3bf-c3acd5f1d78d}">
+	<object class="AudioFile" id="{ee656c12-792b-4f3c-b341-32df7c7b47bc}">
 		<property name="assetPath">
-			<value>Sounds/SFX/Footsteps/footsteps_grass_002.wav</value>
+			<value>Sounds/SFX/Random/voice pop.WAV</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.53362811791383225</value>
+			<value>46.259954648526076</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
