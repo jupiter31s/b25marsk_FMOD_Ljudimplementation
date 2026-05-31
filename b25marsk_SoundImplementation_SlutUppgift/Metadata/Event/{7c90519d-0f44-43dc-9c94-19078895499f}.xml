@@ -175,7 +175,7 @@ Surface 2 - Metal
 	</object>
 	<object class="EventMixerGroup" id="{c61122a0-3e51-4ea1-b425-5a894c6edc68}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Clothing</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{83a4a145-0fac-43e5-9dcc-9b59ac929fb0}</destination>

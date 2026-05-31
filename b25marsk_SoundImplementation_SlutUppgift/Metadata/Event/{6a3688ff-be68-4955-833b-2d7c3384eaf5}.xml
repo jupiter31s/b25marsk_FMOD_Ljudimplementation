@@ -145,6 +145,9 @@
 		<property name="timelockedOffset">
 			<value>0.20000000000000001</value>
 		</property>
+		<property name="pitch">
+			<value>-0.900000036</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6c4c83ab-683f-4e9a-8ec9-c696043097c3}</destination>
 		</relationship>
@@ -194,6 +197,7 @@
 		<relationship name="effects">
 			<destination>{4d8adb51-342f-4495-9701-0d4f10913e5b}</destination>
 			<destination>{29958d2d-bca0-403e-8cfa-b086cb79f256}</destination>
+			<destination>{b14c2526-c627-4b2b-a41c-70fd9a84a51c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{68755ae9-8990-481f-99b6-ddb37c87242e}" />
@@ -246,10 +250,24 @@
 	<object class="MixerBusFader" id="{4d8adb51-342f-4495-9701-0d4f10913e5b}" />
 	<object class="PitchShifterEffect" id="{29958d2d-bca0-403e-8cfa-b086cb79f256}">
 		<property name="pitch">
-			<value>0.899999976</value>
+			<value>0.889999986</value>
+		</property>
+		<property name="fftSize">
+			<value>580</value>
 		</property>
 		<property name="overlap">
 			<value>11.1999998</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{b14c2526-c627-4b2b-a41c-70fd9a84a51c}">
+		<property name="lowGain">
+			<value>10</value>
+		</property>
+		<property name="midGain">
+			<value>-5.5</value>
+		</property>
+		<property name="highGain">
+			<value>-3.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{923ac858-4658-4500-853e-29d2abc01737}" />
