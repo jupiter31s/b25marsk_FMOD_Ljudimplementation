@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{40525c4f-5592-4f32-85ce-5533c815e931}">
+		<property name="note">
+			<value>Oneshot event for player's ranged weapon attack. Laser gun sound effect uses multi instrument to randomize between multiple laser sounds. There is an added random pitch sound effect for a wider variety. 
+Player attack voice is also randomized but has a 65% chance of being played. </value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
@@ -105,6 +109,12 @@
 		<property name="length">
 			<value>2</value>
 		</property>
+		<property name="pitch">
+			<value>1.20000005</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{a77fcd34-5092-4c7f-90b9-72d1e588a345}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{0aed7622-0cb4-4b98-94d7-d2e0977d3aba}</destination>
 		</relationship>
@@ -117,6 +127,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0a8dd708-7554-4994-97f1-b32ead13b5b0}">
+		<property name="volume">
+			<value>-0.5</value>
+		</property>
 		<property name="name">
 			<value>Laser</value>
 		</property>
@@ -138,8 +151,11 @@
 			<value>65</value>
 		</property>
 		<property name="start">
-			<value>0.14000000000000001</value>
+			<value>0.17999999999999999</value>
 		</property>
+		<relationship name="fadeInCurve">
+			<destination>{3f77ef7a-bb5d-47a9-88f7-251b557b5ec4}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{ddca31da-4f9d-4c84-bf5e-5dac76bf36b3}</destination>
 			<destination>{50bb6375-bfe7-4272-9d34-1ae6d9609e2a}</destination>
@@ -171,6 +187,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{a0ae7dcb-5539-4229-9f51-c9d86b7c433a}" />
 	<object class="MixerBusFader" id="{4c61976f-537f-48a0-ab18-41a36eca8c91}" />
+	<object class="RandomizerModulator" id="{a77fcd34-5092-4c7f-90b9-72d1e588a345}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>11.5</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{0aed7622-0cb4-4b98-94d7-d2e0977d3aba}">
 		<relationship name="startPoint">
 			<destination>{7e84febc-60e6-421d-8d4f-66be9698ff2c}</destination>
@@ -210,6 +234,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{145d8921-ef86-47e5-9262-2d5280983bf1}" />
+	<object class="FadeCurve" id="{3f77ef7a-bb5d-47a9-88f7-251b557b5ec4}">
+		<relationship name="startPoint">
+			<destination>{c9345353-e8c0-4fed-99b2-4f553d04694e}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{fe5ccd4e-2655-424b-8856-156e3f52297e}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{ddca31da-4f9d-4c84-bf5e-5dac76bf36b3}">
 		<relationship name="audioFile">
 			<destination>{8e9a0969-f155-4cb5-9289-308e891105a8}</destination>
@@ -240,13 +272,13 @@
 	<object class="MixerBusFader" id="{6f8e6d7d-8afe-4df2-9115-d25797d61ecb}" />
 	<object class="AutomationPoint" id="{7e84febc-60e6-421d-8d4f-66be9698ff2c}">
 		<property name="position">
-			<value>1.3800000000000001</value>
+			<value>1.02</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.00209164992</value>
+			<value>-0.176979542</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f4298a7d-5e42-49ed-b9a2-c34641db1b19}">
@@ -258,6 +290,25 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{808db721-92ca-4ce2-90d6-78a42382a2b1}" />
+	<object class="AutomationPoint" id="{c9345353-e8c0-4fed-99b2-4f553d04694e}">
+		<property name="position">
+			<value>0.17999999999999999</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{fe5ccd4e-2655-424b-8856-156e3f52297e}">
+		<property name="position">
+			<value>0.19999999999999998</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{0ace1114-b86a-49ee-9d65-b6a8a10b064f}" />
 	<object class="PitchShifterEffect" id="{787ad115-7d34-4a8e-8ef3-4bd2682fc187}">
 		<property name="pitch">
