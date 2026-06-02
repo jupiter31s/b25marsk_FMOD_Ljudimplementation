@@ -151,7 +151,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<value>65</value>
 		</property>
 		<property name="start">
-			<value>0.17999999999999999</value>
+			<value>0.040000000000000001</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{3f77ef7a-bb5d-47a9-88f7-251b557b5ec4}</destination>
@@ -292,7 +292,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	<object class="MixerBusFader" id="{808db721-92ca-4ce2-90d6-78a42382a2b1}" />
 	<object class="AutomationPoint" id="{c9345353-e8c0-4fed-99b2-4f553d04694e}">
 		<property name="position">
-			<value>0.17999999999999999</value>
+			<value>0.040000000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -303,7 +303,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	</object>
 	<object class="AutomationPoint" id="{fe5ccd4e-2655-424b-8856-156e3f52297e}">
 		<property name="position">
-			<value>0.19999999999999998</value>
+			<value>0.059999999999999991</value>
 		</property>
 		<property name="value">
 			<value>1</value>
