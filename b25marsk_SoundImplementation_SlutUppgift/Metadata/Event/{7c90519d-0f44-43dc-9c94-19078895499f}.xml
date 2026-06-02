@@ -121,6 +121,9 @@ Surface 2 - Metal
 	</object>
 	<object class="MixerBusPanner" id="{098e6205-9566-4ed0-b317-3f7cc2c4f372}" />
 	<object class="MultiSound" id="{89781bac-626b-4169-9b51-da92ea50330d}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{ed8d4c65-58f6-4d3c-8112-b576e030c25f}</destination>
 			<destination>{3540a98d-e6ed-4cc0-8d61-0b9bc898f3df}</destination>
@@ -150,6 +153,9 @@ Surface 2 - Metal
 	<object class="MultiSound" id="{a6794d4c-4bea-4e7d-9e94-45a421118874}">
 		<property name="start">
 			<value>2</value>
+		</property>
+		<property name="volume">
+			<value>-7</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{029c8f49-7ad7-4085-ae63-f5fe45a84ea7}</destination>
@@ -200,6 +206,9 @@ Surface 2 - Metal
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c61122a0-3e51-4ea1-b425-5a894c6edc68}">
+		<property name="volume">
+			<value>-9.5</value>
+		</property>
 		<property name="name">
 			<value>Clothing</value>
 		</property>

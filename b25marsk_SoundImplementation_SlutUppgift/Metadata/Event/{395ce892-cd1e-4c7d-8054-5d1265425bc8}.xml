@@ -227,7 +227,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4c754eb3-161d-4371-a776-d1446378aa48}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Base</value>
@@ -344,7 +344,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6b4661c3-86f0-4c22-be23-5a60887a1681}">
 		<property name="volume">
-			<value>-1</value>
+			<value>-3.5</value>
 		</property>
 		<property name="name">
 			<value>Wind</value>
@@ -670,7 +670,7 @@
 	<object class="MixerBusFader" id="{045bcf78-33fe-4a99-ad4a-7c398736de3f}" />
 	<object class="PitchShifterEffect" id="{3a886608-1d29-42ed-8d4e-97953a9da1c4}">
 		<property name="pitch">
-			<value>0.799999952</value>
+			<value>0.719999969</value>
 		</property>
 		<property name="fftSize">
 			<value>1380</value>
@@ -681,7 +681,7 @@
 	</object>
 	<object class="FlangerEffect" id="{10ae381b-38aa-4a37-b104-c24a4ceeaef3}">
 		<property name="rate">
-			<value>0.0700000003</value>
+			<value>0.74000001</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f33a9b00-fce3-404b-a1b2-82a73087fe23}">
@@ -807,7 +807,7 @@
 			<value>5.5</value>
 		</property>
 		<property name="highGain">
-			<value>-10.5</value>
+			<value>-5.5</value>
 		</property>
 		<property name="lowCrossover">
 			<value>2800</value>

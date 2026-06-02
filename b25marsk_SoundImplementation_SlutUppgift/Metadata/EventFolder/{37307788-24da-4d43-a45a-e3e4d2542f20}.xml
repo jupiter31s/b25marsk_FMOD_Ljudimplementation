@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{37307788-24da-4d43-a45a-e3e4d2542f20}">
+		<property name="note">
+			<value>Folder for the ambiance of the different areas in the game. Includes Outside ambiance and cave ambiance.</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>
