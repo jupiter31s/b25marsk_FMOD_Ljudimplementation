@@ -61,7 +61,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<destination>{84f24a8a-6b99-41cc-bd6e-9bd9daeeaf4e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{68002ca0-392b-47a8-8107-b3fe2cdb5e28}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{c23cd2ad-d23d-45e3-9e44-975d226138e3}" />

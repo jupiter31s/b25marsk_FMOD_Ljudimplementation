@@ -60,7 +60,7 @@ There is a random pitch as well.</value>
 			<destination>{8fd3373e-2e89-41cd-a55c-836946c90236}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{68002ca0-392b-47a8-8107-b3fe2cdb5e28}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{caeb4833-3784-498d-a1e4-564b8c2d4b3e}" />
