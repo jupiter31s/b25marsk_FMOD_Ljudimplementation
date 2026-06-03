@@ -135,7 +135,7 @@
 			<value>4.5</value>
 		</property>
 		<property name="pitch">
-			<value>-24</value>
+			<value>-16.5</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{dd8b8d4d-3a0e-4f06-92ee-616e0a0ff572}</destination>
@@ -187,7 +187,7 @@
 			<value>4.5</value>
 		</property>
 		<property name="pitch">
-			<value>-24</value>
+			<value>-19.5</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{3dccd3a4-811d-46bd-bad8-fb3b56fbb4e9}</destination>
@@ -226,9 +226,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4c754eb3-161d-4371-a776-d1446378aa48}">
-		<property name="volume">
-			<value>-4.5</value>
-		</property>
 		<property name="name">
 			<value>Base</value>
 		</property>
@@ -332,20 +329,20 @@
 		<property name="length">
 			<value>15</value>
 		</property>
+		<property name="startOffset">
+			<value>21</value>
+		</property>
 		<property name="timelockedOffset">
 			<value>6.0000000000000018</value>
 		</property>
 		<property name="pitch">
-			<value>-3</value>
+			<value>-10.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{0871591c-4df6-434e-8ef1-c670e709e9e3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6b4661c3-86f0-4c22-be23-5a60887a1681}">
-		<property name="volume">
-			<value>-12</value>
-		</property>
 		<property name="name">
 			<value>Wind</value>
 		</property>
@@ -448,7 +445,6 @@
 		<relationship name="effects">
 			<destination>{045bcf78-33fe-4a99-ad4a-7c398736de3f}</destination>
 			<destination>{3a886608-1d29-42ed-8d4e-97953a9da1c4}</destination>
-			<destination>{10ae381b-38aa-4a37-b104-c24a4ceeaef3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ae63e643-384e-4bcf-a57a-0c4308a032a6}" />
@@ -670,18 +666,7 @@
 	<object class="MixerBusFader" id="{045bcf78-33fe-4a99-ad4a-7c398736de3f}" />
 	<object class="PitchShifterEffect" id="{3a886608-1d29-42ed-8d4e-97953a9da1c4}">
 		<property name="pitch">
-			<value>0.719999969</value>
-		</property>
-		<property name="fftSize">
-			<value>1380</value>
-		</property>
-		<property name="overlap">
-			<value>8</value>
-		</property>
-	</object>
-	<object class="FlangerEffect" id="{10ae381b-38aa-4a37-b104-c24a4ceeaef3}">
-		<property name="rate">
-			<value>0.74000001</value>
+			<value>0.909999967</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f33a9b00-fce3-404b-a1b2-82a73087fe23}">

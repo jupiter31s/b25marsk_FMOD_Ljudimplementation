@@ -3,7 +3,12 @@
 	<object class="Event" id="{15f6f002-d05b-43af-a66e-33192ee19e4a}">
 		<property name="note">
 			<value>Ambiance Manager for switching in between location ambiance, outdoor, cave and boss ambiance.
-Uses AHDSR for the volume to slowly release for a smoother switch to the next location ambiance. </value>
+Uses AHDSR for the volume to slowly release for a smoother switch to the next location ambiance. 
+
+Location parameter chooses between:
+Location 0 - Outdoor
+Location 1 - Cave
+Location 2 - Boss</value>
 		</property>
 		<property name="color">
 			<value>Blue</value>

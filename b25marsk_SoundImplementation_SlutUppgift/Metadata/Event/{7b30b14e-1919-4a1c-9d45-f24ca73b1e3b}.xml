@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7b30b14e-1919-4a1c-9d45-f24ca73b1e3b}">
 		<property name="color">
-			<value>Green Light 1</value>
+			<value>Cyan Light 1</value>
 		</property>
 		<property name="name">
 			<value>wall_destruct</value>
