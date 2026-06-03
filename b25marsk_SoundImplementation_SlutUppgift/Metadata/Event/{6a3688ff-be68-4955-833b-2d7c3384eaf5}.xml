@@ -201,12 +201,14 @@
 			<destination>{4d8adb51-342f-4495-9701-0d4f10913e5b}</destination>
 			<destination>{29958d2d-bca0-403e-8cfa-b086cb79f256}</destination>
 			<destination>{b14c2526-c627-4b2b-a41c-70fd9a84a51c}</destination>
+			<destination>{38f8e2e2-1727-4cd2-b93b-4bb759d4e5b8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{68755ae9-8990-481f-99b6-ddb37c87242e}" />
 	<object class="MixerBusEffectChain" id="{0f9cd21d-da09-41f6-8db4-30d42cab5f6f}">
 		<relationship name="effects">
 			<destination>{923ac858-4658-4500-853e-29d2abc01737}</destination>
+			<destination>{e1a75b27-1188-45d4-9ada-b22e5cb3d0f7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6cdaaf1f-b7d1-4028-9f05-8bdfeb3c3e83}" />
@@ -273,5 +275,21 @@
 			<value>-3.5</value>
 		</property>
 	</object>
+	<object class="FlangerEffect" id="{38f8e2e2-1727-4cd2-b93b-4bb759d4e5b8}">
+		<property name="rate">
+			<value>2.4000001</value>
+		</property>
+		<property name="mix">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{923ac858-4658-4500-853e-29d2abc01737}" />
+	<object class="FlangerEffect" id="{e1a75b27-1188-45d4-9ada-b22e5cb3d0f7}">
+		<property name="rate">
+			<value>4.80000019</value>
+		</property>
+		<property name="mix">
+			<value>100</value>
+		</property>
+	</object>
 </objects>

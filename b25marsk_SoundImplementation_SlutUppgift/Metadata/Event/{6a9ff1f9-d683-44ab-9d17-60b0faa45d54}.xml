@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6a9ff1f9-d683-44ab-9d17-60b0faa45d54}">
+		<property name="note">
+			<value>Oneshot event for when the player jumps. Randomized woosh sound along with randomized clothing sound which has 100% chance of being played where as the other sound events do not.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
@@ -206,6 +209,7 @@
 	<object class="MixerBusEffectChain" id="{380eb1fb-c546-4fc8-8b7b-0236be0d94a4}">
 		<relationship name="effects">
 			<destination>{86124ef0-d2f6-4d5f-8e54-127c10e33b3d}</destination>
+			<destination>{5a22bfd4-d0dc-4181-99a6-96f9959a0868}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5fc1133e-6bef-4fbe-85f0-96ac847e25c2}" />
@@ -242,5 +246,13 @@
 	<object class="MixerBusPanner" id="{fd521910-7547-460b-90c7-e241a3a76d2e}" />
 	<object class="MixerBusFader" id="{7ecd495e-9477-495b-a328-9828da9825da}" />
 	<object class="MixerBusFader" id="{86124ef0-d2f6-4d5f-8e54-127c10e33b3d}" />
+	<object class="ThreeEQEffect" id="{5a22bfd4-d0dc-4181-99a6-96f9959a0868}">
+		<property name="lowGain">
+			<value>3.5</value>
+		</property>
+		<property name="midGain">
+			<value>-9</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{88c80954-256d-45cc-82c7-b206adea5b53}" />
 </objects>

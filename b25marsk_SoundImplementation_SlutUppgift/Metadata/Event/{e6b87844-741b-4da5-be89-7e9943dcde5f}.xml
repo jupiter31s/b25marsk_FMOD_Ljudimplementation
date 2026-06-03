@@ -159,7 +159,6 @@ Surface 2 - Metal</value>
 			<destination>{978d55cf-e1a2-461d-baae-e482c070a710}</destination>
 			<destination>{7fdc701c-6919-4f8e-8c96-4242ca42e13c}</destination>
 			<destination>{5a488d0c-992a-452b-9a4d-1727cf6ada93}</destination>
-			<destination>{a6177958-1f77-4ba6-94ff-32d343d39337}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{63f6dc27-6291-471e-a430-e1db77281efd}">
@@ -308,11 +307,6 @@ Surface 2 - Metal</value>
 	<object class="SingleSound" id="{5a488d0c-992a-452b-9a4d-1727cf6ada93}">
 		<relationship name="audioFile">
 			<destination>{9f07817b-882f-43ef-9d30-a91b55b014f3}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{a6177958-1f77-4ba6-94ff-32d343d39337}">
-		<relationship name="audioFile">
-			<destination>{c2ebf541-83e9-4449-9a87-76e479ff7320}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{1afe73af-79e2-4099-8230-383270e2cebe}">
