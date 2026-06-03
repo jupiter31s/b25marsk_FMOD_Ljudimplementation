@@ -60,7 +60,7 @@ There is a random pitch as well.</value>
 			<destination>{8fd3373e-2e89-41cd-a55c-836946c90236}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{68002ca0-392b-47a8-8107-b3fe2cdb5e28}</destination>
+			<destination>{e76d0505-d67b-4efa-ad67-dfb3fa9870d2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{caeb4833-3784-498d-a1e4-564b8c2d4b3e}" />
@@ -165,26 +165,41 @@ There is a random pitch as well.</value>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3bcbda9e-2b74-4856-ab10-71afdee90b7f}">
+		<property name="startOffset">
+			<value>11.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{7a1be5b1-0b21-44cd-818e-e2ba0555a8c2}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{275ac825-94ce-48a6-8868-3cf2199df82a}">
+		<property name="startOffset">
+			<value>26.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{039834ea-4558-4f37-a9a2-800f0dbec5a9}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{de8aa561-189f-4bbd-b7ce-0a9291026bb8}">
+		<property name="startOffset">
+			<value>12.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{39fb2725-6a84-477b-9d9d-3a3ae43bd0d8}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{687dbb57-f6bd-4f82-978f-55de8011faf6}">
+		<property name="startOffset">
+			<value>9.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{4caaa976-7ed8-4df5-8659-ba633e0e5bdc}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b29e2ec9-b4d6-4d78-b685-dd99f48a1994}">
+		<property name="startOffset">
+			<value>15.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{1c798a74-ed83-475a-b92e-033f85fd7b7a}</destination>
 		</relationship>
@@ -210,7 +225,7 @@ There is a random pitch as well.</value>
 	</object>
 	<object class="AutomationPoint" id="{04899b07-d2aa-4e5e-9ee7-492a85883793}">
 		<property name="position">
-			<value>0.035000000000000003</value>
+			<value>0.03500000000000001</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -218,7 +233,7 @@ There is a random pitch as well.</value>
 	</object>
 	<object class="AutomationPoint" id="{af75584d-b207-49c1-a121-045ce3c0d1c4}">
 		<property name="position">
-			<value>0.46000000000000002</value>
+			<value>0.46000000000000069</value>
 		</property>
 		<property name="value">
 			<value>1</value>

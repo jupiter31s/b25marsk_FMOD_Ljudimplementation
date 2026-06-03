@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{68002ca0-392b-47a8-8107-b3fe2cdb5e28}">
-		<property name="volume">
-			<value>-7.5</value>
+		<property name="color">
+			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>PLAYER</value>
+			<value>SFX_Player</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{efe3050a-a7da-45aa-9895-42643fbd71ac}</destination>

@@ -68,7 +68,7 @@ Surface 2 - Metal
 			<destination>{098e6205-9566-4ed0-b317-3f7cc2c4f372}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{68002ca0-392b-47a8-8107-b3fe2cdb5e28}</destination>
+			<destination>{e76d0505-d67b-4efa-ad67-dfb3fa9870d2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e5983bf1-1616-4503-8c63-5e4a21fd1fef}" />
