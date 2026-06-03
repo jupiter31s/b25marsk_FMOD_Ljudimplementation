@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{15f6f002-d05b-43af-a66e-33192ee19e4a}">
+		<property name="note">
+			<value>Ambiance Manager for switching in between location ambiance, outdoor, cave and boss ambiance.
+Uses AHDSR for the volume to slowly release for a smoother switch to the next location ambiance. </value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>
@@ -104,6 +108,12 @@
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
+		<property name="volume">
+			<value>3</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{73eda0d8-cd82-44ec-bbcf-ab3176fcceb5}</destination>
+		</relationship>
 		<relationship name="parameters">
 			<destination>{fe5cb568-2e56-4504-a1fb-28bd0eca7ddf}</destination>
 			<destination>{f3d15ea3-d3c6-4a31-a44c-b35f7155d189}</destination>
@@ -119,16 +129,16 @@
 		<property name="start">
 			<value>1</value>
 		</property>
-		<property name="volume">
-			<value>-4</value>
-		</property>
+		<relationship name="modulators">
+			<destination>{53400ad6-7d04-45e9-a6c0-88d794ada906}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{395ce892-cd1e-4c7d-8054-5d1265425bc8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{41a1367b-612d-4bc8-8077-9a76e0deaf0b}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Location</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{1c28c9bd-7411-4662-af6b-bc54f8747872}</destination>
@@ -147,6 +157,23 @@
 	</object>
 	<object class="MixerBusPanner" id="{735d3ab9-d5da-49e9-999a-ed7c073e439a}" />
 	<object class="MixerBusFader" id="{492ace96-7f15-4f4c-a029-3c6e2aff0f7a}" />
+	<object class="ADSRModulator" id="{73eda0d8-cd82-44ec-bbcf-ab3176fcceb5}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>1400</value>
+		</property>
+		<property name="releaseTime">
+			<value>4000</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="ParameterProperty" id="{fe5cb568-2e56-4504-a1fb-28bd0eca7ddf}">
 		<relationship name="parameter">
 			<destination>{7183dc6d-6c72-49c9-a853-3b058078f954}</destination>
@@ -156,6 +183,23 @@
 		<relationship name="parameter">
 			<destination>{2a3eb591-57df-44a1-acf0-c880fd2d2499}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{53400ad6-7d04-45e9-a6c0-88d794ada906}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>1400</value>
+		</property>
+		<property name="releaseTime">
+			<value>4000</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{1c28c9bd-7411-4662-af6b-bc54f8747872}">
 		<relationship name="effects">
