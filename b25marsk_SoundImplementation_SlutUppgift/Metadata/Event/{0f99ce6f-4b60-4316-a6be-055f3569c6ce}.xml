@@ -35,6 +35,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{4c0e0dba-c417-4ed7-a50e-54b852fd5792}</destination>
+			<destination>{9aa247b1-609b-4ea4-8925-027fa3b6a5a6}</destination>
 			<destination>{5009a6bb-d690-483a-ba40-0065aa26eb62}</destination>
 			<destination>{361a202d-2c3b-4d22-8424-67c878bb3021}</destination>
 		</relationship>
@@ -82,6 +83,14 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<destination>{09f603b3-dd2f-42ed-80f5-98aac131672b}</destination>
 		</relationship>
 	</object>
+	<object class="GroupTrack" id="{9aa247b1-609b-4ea4-8925-027fa3b6a5a6}">
+		<relationship name="modules">
+			<destination>{9d49b828-90d8-4adc-acce-90c16230eb39}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{2b5e2a4a-e507-47a7-bff2-2e5bdad78acf}</destination>
+		</relationship>
+	</object>
 	<object class="GroupTrack" id="{5009a6bb-d690-483a-ba40-0065aa26eb62}">
 		<relationship name="modules">
 			<destination>{2fe3b8cf-0d0b-41ed-82c9-854ae3b3502d}</destination>
@@ -103,6 +112,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<destination>{8b63b088-19a3-48e1-b44b-c2d99633a9c4}</destination>
 			<destination>{fd6c28e7-64e7-4d12-8931-9b5167a71e3d}</destination>
 			<destination>{2fe3b8cf-0d0b-41ed-82c9-854ae3b3502d}</destination>
+			<destination>{9d49b828-90d8-4adc-acce-90c16230eb39}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b24065f1-2592-43f2-8203-1519a4ea5833}">
@@ -129,16 +139,19 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	</object>
 	<object class="SingleSound" id="{8b63b088-19a3-48e1-b44b-c2d99633a9c4}">
 		<property name="length">
-			<value>0.47999999999999998</value>
+			<value>0.47499999999999998</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>31.32</value>
+			<value>31.324999999999999</value>
 		</property>
 		<property name="pitch">
 			<value>-1.20000005</value>
 		</property>
 		<relationship name="automators">
 			<destination>{6e5a0ef7-7c7c-4f21-9dbc-e884904557df}</destination>
+		</relationship>
+		<relationship name="fadeInCurve">
+			<destination>{d320972d-f846-4328-a0a4-af513d1e62e0}</destination>
 		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{08ecbac4-a00f-4f2b-9b88-5445b568b5bd}</destination>
@@ -148,9 +161,6 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{09f603b3-dd2f-42ed-80f5-98aac131672b}">
-		<property name="volume">
-			<value>3</value>
-		</property>
 		<property name="name">
 			<value>Base</value>
 		</property>
@@ -164,13 +174,56 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<destination>{b24065f1-2592-43f2-8203-1519a4ea5833}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{2fe3b8cf-0d0b-41ed-82c9-854ae3b3502d}">
+	<object class="SingleSound" id="{9d49b828-90d8-4adc-acce-90c16230eb39}">
 		<property name="start">
-			<value>0.17000000000000001</value>
+			<value>0.014999999999999999</value>
 		</property>
 		<property name="length">
-			<value>0.45231292517006805</value>
+			<value>0.64500000000000002</value>
 		</property>
+		<property name="timelockedOffset">
+			<value>16.1222933357976</value>
+		</property>
+		<property name="volume">
+			<value>6.5</value>
+		</property>
+		<property name="pitch">
+			<value>-8.5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{4801a588-e47b-446f-a542-78d4592590b8}</destination>
+		</relationship>
+		<relationship name="fadeInCurve">
+			<destination>{e422cd1d-9417-4de3-9ba0-c0ab2d7ee284}</destination>
+		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{70e67ca0-fc11-4395-9245-8a370281ede4}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{8b1e1417-fba7-460a-8735-cdc504603e8b}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{2b5e2a4a-e507-47a7-bff2-2e5bdad78acf}">
+		<property name="name">
+			<value>Audio 2</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{4de16676-ac1c-4756-a518-e350c3eeaee7}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{9f134969-8109-40d8-a252-57254b601ff6}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b24065f1-2592-43f2-8203-1519a4ea5833}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{2fe3b8cf-0d0b-41ed-82c9-854ae3b3502d}">
+		<property name="length">
+			<value>0.37</value>
+		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{991997d7-9a74-415c-9565-7cda2494683f}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{256f033e-3e72-4621-926f-100e89f0b782}</destination>
 			<destination>{019c72ed-7e70-483d-91bf-3db2e789d311}</destination>
@@ -185,7 +238,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<value>-2.5</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Woosh</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{9c384b88-9f53-4c80-ad9f-676a030e7709}</destination>
@@ -205,7 +258,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<value>65</value>
 		</property>
 		<property name="start">
-			<value>0.17000000000000001</value>
+			<value>0.14999999999999999</value>
 		</property>
 		<property name="length">
 			<value>0.30999999999999994</value>
@@ -255,6 +308,14 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<destination>{d68359fd-ff69-4a78-ab29-09c24f9f52cd}</destination>
 		</relationship>
 	</object>
+	<object class="FadeCurve" id="{d320972d-f846-4328-a0a4-af513d1e62e0}">
+		<relationship name="startPoint">
+			<destination>{cf97592d-8eeb-4fd1-923a-1663c15d0cc7}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{080d8b97-c7dd-441b-8e0a-88ea604993e9}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{08ecbac4-a00f-4f2b-9b88-5445b568b5bd}">
 		<relationship name="startPoint">
 			<destination>{412b39fb-e362-42e3-8410-9919c90f00a9}</destination>
@@ -269,32 +330,89 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cf36b672-2857-47a2-aca4-af9a854b5df2}" />
+	<object class="RandomizerModulator" id="{4801a588-e47b-446f-a542-78d4592590b8}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>20</value>
+		</property>
+	</object>
+	<object class="FadeCurve" id="{e422cd1d-9417-4de3-9ba0-c0ab2d7ee284}">
+		<relationship name="startPoint">
+			<destination>{0f24edb8-c700-4ab7-895f-943c581e8612}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{59d2ba64-4a34-4a59-9171-427e55447c62}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{70e67ca0-fc11-4395-9245-8a370281ede4}">
+		<relationship name="startPoint">
+			<destination>{82006a01-e4bf-4254-9912-9ad16521938d}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{cb3add64-c23e-43c5-9270-274b8501e908}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{4de16676-ac1c-4756-a518-e350c3eeaee7}">
+		<relationship name="effects">
+			<destination>{2e8585d7-2c0a-473a-9376-14e9ddef2e47}</destination>
+			<destination>{33dd21a9-bf17-4dc9-b7b2-d2b670939344}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{9f134969-8109-40d8-a252-57254b601ff6}" />
+	<object class="FadeCurve" id="{991997d7-9a74-415c-9565-7cda2494683f}">
+		<relationship name="startPoint">
+			<destination>{b40038fa-d0e5-435e-92d2-0096e032ca98}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{8bc2fef3-0029-4515-abf2-ba1860f7307c}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{256f033e-3e72-4621-926f-100e89f0b782}">
+		<property name="startOffset">
+			<value>10.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{20f0f79c-88e3-4163-9ae6-09e6ff9f6536}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{019c72ed-7e70-483d-91bf-3db2e789d311}">
+		<property name="startOffset">
+			<value>21.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{fb98293d-d461-47a6-8eb3-6eb376131491}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{de308ba5-6888-4a90-af22-dbe96b9fceab}">
+		<property name="startOffset">
+			<value>19</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{42937a97-d0ed-4aa8-9d05-bd4012753455}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{1d0341f6-1652-40a3-b7b3-f1543cb2b5ae}">
+		<property name="startOffset">
+			<value>14</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{43017597-d757-4adc-b527-bfe530dd64a5}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{6809e7c9-b7d4-42a1-88d9-31172e8505bd}">
+		<property name="startOffset">
+			<value>21</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{bd3f91d0-6463-489f-86ef-1287879942f0}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{85f67766-ca59-4fc9-88bf-a5c1492067f0}">
+		<property name="startOffset">
+			<value>11</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{9b322cec-46a9-4b3e-ad2c-dd26f30a3e2c}</destination>
 		</relationship>
@@ -369,9 +487,28 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<destination>{b9fb7845-e5c4-43e6-b3df-870f958e26a7}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationPoint" id="{cf97592d-8eeb-4fd1-923a-1663c15d0cc7}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.368517131</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{080d8b97-c7dd-441b-8e0a-88ea604993e9}">
+		<property name="position">
+			<value>0.035000000000000003</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{412b39fb-e362-42e3-8410-9919c90f00a9}">
 		<property name="position">
-			<value>0.255</value>
+			<value>0.25</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -382,17 +519,80 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	</object>
 	<object class="AutomationPoint" id="{b8f8d6f0-8e12-49cc-819d-c88c0bbd9a12}">
 		<property name="position">
-			<value>0.47999999999999998</value>
+			<value>0.47499999999999998</value>
 		</property>
 		<property name="value">
 			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f3900efa-db90-469f-9f3f-509812f578d6}" />
+	<object class="AutomationPoint" id="{0f24edb8-c700-4ab7-895f-943c581e8612}">
+		<property name="position">
+			<value>0.014999999999999999</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.0863205045</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{59d2ba64-4a34-4a59-9171-427e55447c62}">
+		<property name="position">
+			<value>0.040000000000000001</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{82006a01-e4bf-4254-9912-9ad16521938d}">
+		<property name="position">
+			<value>0.27499999999999969</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.14857024</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{cb3add64-c23e-43c5-9270-274b8501e908}">
+		<property name="position">
+			<value>0.65999999999999959</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{2e8585d7-2c0a-473a-9376-14e9ddef2e47}" />
+	<object class="ThreeEQEffect" id="{33dd21a9-bf17-4dc9-b7b2-d2b670939344}">
+		<property name="highGain">
+			<value>-30</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{b40038fa-d0e5-435e-92d2-0096e032ca98}">
+		<property name="position">
+			<value>0.22500000000000001</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.265244246</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{8bc2fef3-0029-4515-abf2-ba1860f7307c}">
+		<property name="position">
+			<value>0.37</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{e3451fe4-370e-4a26-994e-9ba8430fad7a}" />
 	<object class="AutomationPoint" id="{75a89fd3-7524-4bd0-b10b-c72282ec2f7d}">
 		<property name="position">
-			<value>0.17000000000000001</value>
+			<value>0.14999999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -403,7 +603,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	</object>
 	<object class="AutomationPoint" id="{cd2c6f50-e7b8-486e-a57d-1d4095eb2498}">
 		<property name="position">
-			<value>0.19000000000000003</value>
+			<value>0.16999999999999998</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -411,7 +611,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	</object>
 	<object class="AutomationPoint" id="{b09e0473-6195-4e22-b3f3-09825467f89d}">
 		<property name="position">
-			<value>0.26000000000000001</value>
+			<value>0.23999999999999999</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -422,7 +622,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	</object>
 	<object class="AutomationPoint" id="{9bbbf279-859b-42ec-8743-52a92c08c688}">
 		<property name="position">
-			<value>0.47999999999999998</value>
+			<value>0.45999999999999985</value>
 		</property>
 		<property name="value">
 			<value>0</value>
