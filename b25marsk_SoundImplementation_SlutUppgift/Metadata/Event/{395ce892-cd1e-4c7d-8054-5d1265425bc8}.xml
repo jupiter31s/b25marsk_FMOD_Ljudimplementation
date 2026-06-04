@@ -226,6 +226,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4c754eb3-161d-4371-a776-d1446378aa48}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<property name="name">
 			<value>Base</value>
 		</property>
@@ -310,7 +313,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{efe924b0-6e9c-4625-bfa2-ee86282742c7}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-11</value>
 		</property>
 		<property name="name">
 			<value>Debris</value>
@@ -666,7 +669,7 @@
 	<object class="MixerBusFader" id="{045bcf78-33fe-4a99-ad4a-7c398736de3f}" />
 	<object class="PitchShifterEffect" id="{3a886608-1d29-42ed-8d4e-97953a9da1c4}">
 		<property name="pitch">
-			<value>0.909999967</value>
+			<value>0.939999998</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f33a9b00-fce3-404b-a1b2-82a73087fe23}">
