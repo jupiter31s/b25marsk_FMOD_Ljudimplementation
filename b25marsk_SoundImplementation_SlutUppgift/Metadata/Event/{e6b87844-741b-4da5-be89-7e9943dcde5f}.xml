@@ -101,7 +101,11 @@ Surface 2 - Metal</value>
 			<destination>{9d403930-cdf0-4790-8e63-feb6381a748a}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{c2baa2b9-779d-4070-b11b-1f284fccb6c4}" />
+	<object class="Timeline" id="{c2baa2b9-779d-4070-b11b-1f284fccb6c4}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
 	<object class="ParameterProxy" id="{e74c6c22-ea43-4aec-9241-c80f9b3682cf}">
 		<relationship name="modules">
 			<destination>{816f8970-cc85-4cea-9bc0-f1b7a9e9029d}</destination>

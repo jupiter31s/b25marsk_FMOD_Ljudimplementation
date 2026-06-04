@@ -174,7 +174,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	</object>
 	<object class="EventMixerGroup" id="{2628e022-15a4-4a82-b7b5-db703a09e7dd}">
 		<property name="volume">
-			<value>3</value>
+			<value>3.5</value>
 		</property>
 		<property name="name">
 			<value>Voice</value>

@@ -227,7 +227,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4c754eb3-161d-4371-a776-d1446378aa48}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-15.5</value>
 		</property>
 		<property name="name">
 			<value>Base</value>
@@ -253,7 +253,7 @@
 			<value>4.6000000000000005</value>
 		</property>
 		<property name="pitch">
-			<value>-0.900000036</value>
+			<value>-1.39999998</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{070aa5bf-f2c3-47ed-ba3b-c3630c90f985}</destination>
@@ -276,7 +276,7 @@
 			<value>23.599999999999888</value>
 		</property>
 		<property name="pitch">
-			<value>-0.800000012</value>
+			<value>-1.39999998</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{6c88d40a-d513-48f5-a314-890b43cd0ed0}</destination>
@@ -299,7 +299,7 @@
 			<value>30.899999999999942</value>
 		</property>
 		<property name="pitch">
-			<value>-0.699999988</value>
+			<value>-1.80000007</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{54b578c4-f0b1-45db-bf79-abf1385d29ae}</destination>
@@ -313,7 +313,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{efe924b0-6e9c-4625-bfa2-ee86282742c7}">
 		<property name="volume">
-			<value>-11</value>
+			<value>-11.5</value>
 		</property>
 		<property name="name">
 			<value>Debris</value>

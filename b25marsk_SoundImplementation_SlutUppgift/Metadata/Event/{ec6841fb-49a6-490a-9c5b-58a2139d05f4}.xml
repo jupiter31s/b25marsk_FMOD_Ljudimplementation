@@ -79,6 +79,9 @@ There is a random pitch as well.</value>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{963f7fb4-8527-4e21-83df-ac5e4a1f9969}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{f5aa0d50-2ace-46c8-bd26-21bbf967940f}</destination>
 		</relationship>

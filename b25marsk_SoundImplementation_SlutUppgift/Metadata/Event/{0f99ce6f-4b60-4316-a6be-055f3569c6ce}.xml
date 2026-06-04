@@ -234,9 +234,6 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3081f653-b8b3-492d-9682-817a6b93f9b7}">
-		<property name="volume">
-			<value>-2.5</value>
-		</property>
 		<property name="name">
 			<value>Woosh</value>
 		</property>
@@ -278,7 +275,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	</object>
 	<object class="EventMixerGroup" id="{65c5ba5b-60c6-42aa-b21f-42b1430ef0da}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Voice</value>
@@ -327,6 +324,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 	<object class="MixerBusEffectChain" id="{87e1b091-d05c-490e-82b0-58b2e5aa3d4a}">
 		<relationship name="effects">
 			<destination>{f3900efa-db90-469f-9f3f-509812f578d6}</destination>
+			<destination>{ad63d518-7be9-4e23-8e16-a3e1f1591544}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cf36b672-2857-47a2-aca4-af9a854b5df2}" />
@@ -526,6 +524,14 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f3900efa-db90-469f-9f3f-509812f578d6}" />
+	<object class="ThreeEQEffect" id="{ad63d518-7be9-4e23-8e16-a3e1f1591544}">
+		<property name="lowGain">
+			<value>-80</value>
+		</property>
+		<property name="highGain">
+			<value>1.5</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{0f24edb8-c700-4ab7-895f-943c581e8612}">
 		<property name="position">
 			<value>0</value>
