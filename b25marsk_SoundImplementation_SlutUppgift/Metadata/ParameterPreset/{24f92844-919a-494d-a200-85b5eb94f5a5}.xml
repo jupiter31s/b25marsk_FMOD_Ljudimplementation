@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{088beb0c-6dc8-46a6-b566-edc3614005bf}">
+	<object class="ParameterPreset" id="{24f92844-919a-494d-a200-85b5eb94f5a5}">
 		<property name="name">
-			<value>ShieldState</value>
+			<value>SteamStage</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{957af593-e57d-4a8c-90a2-e3e4e6bbb26c}</destination>
+			<destination>{1d2cde28-37d3-4bd3-94a7-4a675552d9b6}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{957af593-e57d-4a8c-90a2-e3e4e6bbb26c}">
+	<object class="GameParameter" id="{1d2cde28-37d3-4bd3-94a7-4a675552d9b6}">
 		<property name="parameterType">
-			<value>2</value>
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
-		</property>
-		<property name="enumerationLabels">
-			<value>Down</value>
-			<value>Up</value>
+			<value>3</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 </objects>
