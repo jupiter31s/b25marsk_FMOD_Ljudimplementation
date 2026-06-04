@@ -106,7 +106,7 @@
 			<value>0.65487528344671198</value>
 		</property>
 		<property name="pitch">
-			<value>-15.5</value>
+			<value>-23</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{10c8ddd7-a1d5-4227-9749-17f954e8c92f}</destination>
@@ -137,7 +137,7 @@
 			<value>11.139999999999995</value>
 		</property>
 		<property name="pitch">
-			<value>-5</value>
+			<value>-16</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{4076de12-c921-475b-a538-6700e424c2af}</destination>
@@ -187,6 +187,7 @@
 	<object class="MixerBusEffectChain" id="{aa3dea1b-ac1a-4980-b9fd-657efd265315}">
 		<relationship name="effects">
 			<destination>{49b6cdf3-9110-4895-8485-ed1c29cadd7a}</destination>
+			<destination>{4a2ac4fc-12ec-4ea8-9fb0-fdab983b9d95}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fc3f3e4d-1b41-4c4e-97cb-7c24675171e1}" />
@@ -235,6 +236,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{49b6cdf3-9110-4895-8485-ed1c29cadd7a}" />
+	<object class="PitchShifterEffect" id="{4a2ac4fc-12ec-4ea8-9fb0-fdab983b9d95}">
+		<property name="pitch">
+			<value>0.589999974</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{4844daed-497b-401f-9b80-82aded78380f}">
 		<property name="position">
 			<value>0</value>

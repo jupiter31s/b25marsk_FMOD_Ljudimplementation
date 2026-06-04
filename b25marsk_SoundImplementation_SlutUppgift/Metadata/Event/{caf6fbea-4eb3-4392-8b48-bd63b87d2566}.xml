@@ -131,7 +131,7 @@
 			<value>15.770000000000008</value>
 		</property>
 		<property name="pitch">
-			<value>-10.5</value>
+			<value>-10</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{c80d23db-d2c8-4b4a-a505-7768f9d5b511}</destination>
@@ -279,7 +279,7 @@
 			<value>-9.5</value>
 		</property>
 		<property name="highGain">
-			<value>-37</value>
+			<value>-8</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{717651e3-9468-4b4e-a5e5-3d76262e0e7d}">

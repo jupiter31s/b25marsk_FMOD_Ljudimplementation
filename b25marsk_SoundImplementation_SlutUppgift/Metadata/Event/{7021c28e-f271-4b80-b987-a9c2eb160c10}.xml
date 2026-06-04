@@ -159,7 +159,7 @@
 			<value>0.050000000000000003</value>
 		</property>
 		<property name="length">
-			<value>1.6000000000000001</value>
+			<value>1.6899999999999999</value>
 		</property>
 		<property name="pitch">
 			<value>-15</value>
@@ -362,7 +362,7 @@
 	</object>
 	<object class="AutomationPoint" id="{42213413-26b9-4c82-a604-69ba5a15702a}">
 		<property name="position">
-			<value>1</value>
+			<value>1.0899999999999999</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -373,7 +373,7 @@
 	</object>
 	<object class="AutomationPoint" id="{77912759-a1b8-41e4-83d8-f52a18a750fc}">
 		<property name="position">
-			<value>1.6500000000000001</value>
+			<value>1.74</value>
 		</property>
 		<property name="value">
 			<value>0</value>

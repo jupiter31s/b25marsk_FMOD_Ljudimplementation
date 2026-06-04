@@ -67,15 +67,21 @@
 	<object class="GroupTrack" id="{43d8831e-0759-4881-a43e-45549a61c7f7}">
 		<relationship name="modules">
 			<destination>{b8495266-bede-417d-b1ea-019225e35bf9}</destination>
+			<destination>{a3e33444-7f82-49d4-857f-2efd433d4369}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d890a4af-74fb-4a06-8595-a17ab865292d}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{30a6eb77-e425-4970-b40e-04c1b09079d3}" />
+	<object class="Timeline" id="{30a6eb77-e425-4970-b40e-04c1b09079d3}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
 	<object class="ParameterProxy" id="{b67410db-95ed-45eb-82b6-0c371dd6f2f4}">
 		<relationship name="modules">
 			<destination>{b8495266-bede-417d-b1ea-019225e35bf9}</destination>
+			<destination>{a3e33444-7f82-49d4-857f-2efd433d4369}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{1d2cde28-37d3-4bd3-94a7-4a675552d9b6}</destination>
@@ -99,6 +105,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{1630a061-49db-4c09-9ba0-a7f055ca4808}" />
 	<object class="SingleSound" id="{b8495266-bede-417d-b1ea-019225e35bf9}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>
@@ -109,10 +118,24 @@
 			<value>10</value>
 		</property>
 		<property name="pitch">
-			<value>-11.5</value>
+			<value>-13</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{30c881d3-105c-4be4-b085-626c174ac3b6}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{a3e33444-7f82-49d4-857f-2efd433d4369}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="pitch">
+			<value>-7</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{790cedd1-f847-4e58-a366-4edb1c8def4e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d890a4af-74fb-4a06-8595-a17ab865292d}">
