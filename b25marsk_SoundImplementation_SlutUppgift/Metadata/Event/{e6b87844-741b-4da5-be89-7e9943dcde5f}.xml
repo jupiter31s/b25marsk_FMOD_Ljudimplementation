@@ -4,7 +4,7 @@
 		<property name="note">
 			<value>Oneshot event for when avatar lands after jumping. Three parameters control the type of landing surface. 
 Clothing sound effects, for Ellen's pouch has a 95% chance of being played. The clothing sound track also has a random pitch variation with 2.16 st.
-There's a 15% chance of player panting/sighing being played
+There's a 10% chance of player panting/sighing being played
 
 Surface 0 - Grass
 Surface 1 - Rock
@@ -219,7 +219,7 @@ Surface 2 - Metal</value>
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>15</value>
+			<value>10</value>
 		</property>
 		<property name="length">
 			<value>3</value>

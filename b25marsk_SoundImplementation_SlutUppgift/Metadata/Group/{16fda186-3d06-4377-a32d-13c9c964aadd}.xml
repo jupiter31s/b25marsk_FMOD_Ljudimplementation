@@ -4,9 +4,6 @@
 		<property name="color">
 			<value>Red</value>
 		</property>
-		<property name="volume">
-			<value>-8</value>
-		</property>
 		<property name="name">
 			<value>SFX_Enemy</value>
 		</property>
