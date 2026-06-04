@@ -131,6 +131,9 @@
 		<property name="start">
 			<value>2</value>
 		</property>
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<property name="pitch">
 			<value>-7</value>
 		</property>
@@ -139,6 +142,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d890a4af-74fb-4a06-8595-a17ab865292d}">
+		<property name="volume">
+			<value>6.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
