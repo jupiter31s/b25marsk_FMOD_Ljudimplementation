@@ -5,7 +5,7 @@
 			<value>SteamStage</value>
 		</property>
 		<relationship name="folder">
-			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+			<destination>{3b5bd2f1-1ac1-428e-99a2-fcabf5a576ae}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{1d2cde28-37d3-4bd3-94a7-4a675552d9b6}</destination>

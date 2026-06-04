@@ -5,7 +5,7 @@
 			<value>ShieldState</value>
 		</property>
 		<relationship name="folder">
-			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+			<destination>{3b5bd2f1-1ac1-428e-99a2-fcabf5a576ae}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{957af593-e57d-4a8c-90a2-e3e4e6bbb26c}</destination>
