@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Cyan Light 1</value>
 		</property>
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Int_Box</value>
 		</property>
