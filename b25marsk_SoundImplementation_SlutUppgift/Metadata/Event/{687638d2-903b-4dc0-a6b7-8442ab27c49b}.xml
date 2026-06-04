@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{687638d2-903b-4dc0-a6b7-8442ab27c49b}">
+		<property name="note">
+			<value>A parameter event for enemy Gunner's Shield State during boss fight. 
+
+Down (0) - when enemy shield goes down/gets broken
+Up (1) - when enemy shield goes up</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

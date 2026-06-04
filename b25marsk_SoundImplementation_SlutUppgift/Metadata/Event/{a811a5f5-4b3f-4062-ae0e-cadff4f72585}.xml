@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a811a5f5-4b3f-4062-ae0e-cadff4f72585}">
+		<property name="note">
+			<value>Oneshot sound effect used for key pickup.
+
+Created by using pitch automation.</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 1</value>
 		</property>

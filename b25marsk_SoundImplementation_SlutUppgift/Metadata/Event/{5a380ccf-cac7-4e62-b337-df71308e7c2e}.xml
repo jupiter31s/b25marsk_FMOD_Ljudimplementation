@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5a380ccf-cac7-4e62-b337-df71308e7c2e}">
+		<property name="note">
+			<value>Onehsot event for when enemy Gunner attacks with laser attack.
+
+Created by using lower pitch.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

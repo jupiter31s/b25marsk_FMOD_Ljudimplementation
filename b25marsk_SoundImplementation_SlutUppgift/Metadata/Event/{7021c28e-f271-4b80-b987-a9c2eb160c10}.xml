@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7021c28e-f271-4b80-b987-a9c2eb160c10}">
+		<property name="note">
+			<value>Onehsot event for when enemy Gunner attacks with grenades.
+
+Created by using lower pitch, 3EQ.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

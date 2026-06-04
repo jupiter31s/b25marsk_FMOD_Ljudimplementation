@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{caf6fbea-4eb3-4392-8b48-bd63b87d2566}">
+		<property name="note">
+			<value>Onehsot event for when enemy Gunner takes damage. 
+Different pitches was used as well as a 3EQ.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

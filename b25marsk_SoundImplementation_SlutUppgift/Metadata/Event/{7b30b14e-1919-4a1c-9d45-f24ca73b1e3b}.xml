@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7b30b14e-1919-4a1c-9d45-f24ca73b1e3b}">
+		<property name="note">
+			<value>Sound effect for when the wall/pillar gets destroyed by the player.</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 1</value>
 		</property>

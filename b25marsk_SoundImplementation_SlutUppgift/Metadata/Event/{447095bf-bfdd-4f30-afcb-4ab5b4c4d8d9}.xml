@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{447095bf-bfdd-4f30-afcb-4ab5b4c4d8d9}">
+		<property name="note">
+			<value>Onehsot event for when enemy Gunner attacks with lightning. 
+
+Created by using lower pitch, 3EQ and tremolo effects.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

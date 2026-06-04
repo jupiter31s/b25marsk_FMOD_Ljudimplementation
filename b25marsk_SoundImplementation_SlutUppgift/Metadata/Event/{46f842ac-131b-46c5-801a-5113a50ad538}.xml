@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{46f842ac-131b-46c5-801a-5113a50ad538}">
+		<property name="note">
+			<value>Looping sound event for when a box gets pushed. Uses destination markers with conditions to quickly stop the pushing sound. 
+Has an End parameter to be able to stop the pushing sound.</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 1</value>
 		</property>

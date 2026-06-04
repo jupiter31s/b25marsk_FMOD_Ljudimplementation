@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a1c8fff9-d245-429f-ae2e-e8d6636b9b6d}">
+		<property name="note">
+			<value>A parameter event for enemy Gunner's Steam Stage during boss fight. 
+
+1 - when enemy goes into second phase (after shield was broken first time)
+2 - when enemy goes into third/last phase (when shield is broken for the second time)</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

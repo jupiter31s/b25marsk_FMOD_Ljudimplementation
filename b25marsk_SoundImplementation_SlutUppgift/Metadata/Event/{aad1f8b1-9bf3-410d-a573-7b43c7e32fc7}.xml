@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{aad1f8b1-9bf3-410d-a573-7b43c7e32fc7}">
+		<property name="note">
+			<value>Sound event for when enemy Gunner dies and plays a longer animation.
+
+Different pitches, 3EQ and flanger was used.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

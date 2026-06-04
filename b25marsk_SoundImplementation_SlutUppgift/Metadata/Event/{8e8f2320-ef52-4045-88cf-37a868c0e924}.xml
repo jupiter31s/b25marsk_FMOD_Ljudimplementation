@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8e8f2320-ef52-4045-88cf-37a868c0e924}">
+		<property name="note">
+			<value>Cutscene event for when the boss entries players screen in zone5.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
