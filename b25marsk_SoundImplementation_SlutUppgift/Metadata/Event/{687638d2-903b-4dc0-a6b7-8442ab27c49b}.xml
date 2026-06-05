@@ -72,8 +72,8 @@ Up (1) - when enemy shield goes up</value>
 	<object class="MarkerTrack" id="{64e7db0b-f974-4f66-a65b-591022674e79}" />
 	<object class="GroupTrack" id="{16feee37-20b6-4ae0-9dfa-c7417dc92aaf}">
 		<relationship name="modules">
-			<destination>{32742133-8bf9-476d-bdb4-0eb07a9e752a}</destination>
-			<destination>{fc18cacf-a4c4-40cb-8f8a-b0c0b8321449}</destination>
+			<destination>{3fa9c1ff-872e-4d02-b73a-621b1802b290}</destination>
+			<destination>{523cdfa4-e982-4756-bddc-e771b29e00a4}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cd86f096-39d0-4c68-8b62-4a616250fc39}</destination>
@@ -86,8 +86,8 @@ Up (1) - when enemy shield goes up</value>
 	</object>
 	<object class="ParameterProxy" id="{8e75ad72-27c7-44ad-88a3-70e98c26daef}">
 		<relationship name="modules">
-			<destination>{32742133-8bf9-476d-bdb4-0eb07a9e752a}</destination>
-			<destination>{fc18cacf-a4c4-40cb-8f8a-b0c0b8321449}</destination>
+			<destination>{3fa9c1ff-872e-4d02-b73a-621b1802b290}</destination>
+			<destination>{523cdfa4-e982-4756-bddc-e771b29e00a4}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{957af593-e57d-4a8c-90a2-e3e4e6bbb26c}</destination>
@@ -110,25 +110,28 @@ Up (1) - when enemy shield goes up</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f2426010-8daa-4bc1-a872-52add035e29e}" />
-	<object class="SingleSound" id="{32742133-8bf9-476d-bdb4-0eb07a9e752a}">
+	<object class="SingleSound" id="{3fa9c1ff-872e-4d02-b73a-621b1802b290}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{4fb5fb18-506e-423e-8edc-14526bce34d4}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{523cdfa4-e982-4756-bddc-e771b29e00a4}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{76e86e92-a466-4578-bd91-c5b2a9b2e0ff}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{fc18cacf-a4c4-40cb-8f8a-b0c0b8321449}">
-		<property name="pitch">
-			<value>-2.20000005</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{2c91002a-60c4-4829-820c-0c9fd9cf9e42}</destination>
+			<destination>{c1fe2191-9ac0-4a68-82d5-38d51a27031b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cd86f096-39d0-4c68-8b62-4a616250fc39}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>State</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{c6ff1434-f818-4aff-90b5-f5872b9cbc64}</destination>
@@ -151,16 +154,10 @@ Up (1) - when enemy shield goes up</value>
 	<object class="MixerBusEffectChain" id="{c6ff1434-f818-4aff-90b5-f5872b9cbc64}">
 		<relationship name="effects">
 			<destination>{f775c83c-f0ac-4ef2-b7df-70a2499a125f}</destination>
-			<destination>{93631246-5492-4258-93b3-799e9526bf29}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d90b8251-7732-4222-abdf-0355e09635cc}" />
 	<object class="MixerBusFader" id="{29769ecf-03e6-49d0-a81d-8f99ea39e0ab}" />
 	<object class="SpatialiserEffect" id="{3fe206f9-b8f0-4caa-8e9e-628d76b840f6}" />
 	<object class="MixerBusFader" id="{f775c83c-f0ac-4ef2-b7df-70a2499a125f}" />
-	<object class="FlangerEffect" id="{93631246-5492-4258-93b3-799e9526bf29}">
-		<property name="rate">
-			<value>0.899999976</value>
-		</property>
-	</object>
 </objects>
