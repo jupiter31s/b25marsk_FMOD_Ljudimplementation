@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{8c02e06d-fc95-40f4-b540-23c8d9965fcd}">
+		<property name="color">
+			<value>Green Light 2</value>
+		</property>
+		<property name="name">
+			<value>Aci_Pool</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7e58ac5f-80a3-4011-9931-b1b18fc52f54}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8bae757f-cfb8-4301-b884-bd5853193675}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2d26de01-4a15-4aa3-a338-10aa451e7a77}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7e58ac5f-80a3-4011-9931-b1b18fc52f54}">
+		<relationship name="effects">
+			<destination>{42405b04-d444-4a92-9a0e-b9d17897abea}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8bae757f-cfb8-4301-b884-bd5853193675}" />
+	<object class="MixerBusFader" id="{42405b04-d444-4a92-9a0e-b9d17897abea}" />
+</objects>
