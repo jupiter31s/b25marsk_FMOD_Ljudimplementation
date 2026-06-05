@@ -4,7 +4,8 @@
 		<property name="note">
 			<value>Oneshot sound effect used for health pickup.
 
-Created by using pitch automation.</value>
+Created by using pitch automation. 
+Pitch random automation is used for a small  variety</value>
 		</property>
 		<property name="color">
 			<value>Cyan Light 1</value>
@@ -118,6 +119,7 @@ Created by using pitch automation.</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{60a17fe5-f842-4767-bf6b-21c275ed3ec3}</destination>
+			<destination>{f4329d82-26ba-43c8-b39e-b88a74b29d36}</destination>
 		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{990feb95-88b8-4ae7-85ad-c2aea395e357}</destination>
@@ -144,6 +146,9 @@ Created by using pitch automation.</value>
 		</property>
 		<relationship name="automators">
 			<destination>{c8997e85-2567-4929-8830-2fc7a6905f33}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{4249b464-d997-486a-8417-c5a8bbbe2419}</destination>
 		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{e35ee652-d282-4210-b97a-606510e01dcc}</destination>
@@ -208,6 +213,14 @@ Created by using pitch automation.</value>
 			<value>51.1111145</value>
 		</property>
 	</object>
+	<object class="RandomizerModulator" id="{f4329d82-26ba-43c8-b39e-b88a74b29d36}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{990feb95-88b8-4ae7-85ad-c2aea395e357}">
 		<relationship name="startPoint">
 			<destination>{9a095bfa-514f-40f5-88a7-bc9a1fa388ff}</destination>
@@ -223,6 +236,14 @@ Created by using pitch automation.</value>
 		<relationship name="automationCurves">
 			<destination>{1eef6042-7dc5-46ed-a643-bead7678fa13}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{4249b464-d997-486a-8417-c5a8bbbe2419}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>4</value>
+		</property>
 	</object>
 	<object class="FadeCurve" id="{e35ee652-d282-4210-b97a-606510e01dcc}">
 		<relationship name="startPoint">

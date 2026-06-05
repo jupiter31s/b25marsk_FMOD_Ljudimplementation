@@ -2,7 +2,8 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{eb430a47-e2a2-4693-a103-884ae62f3bda}">
 		<property name="note">
-			<value>Oneshot event for when enemy chomper or spitter dies.</value>
+			<value>Oneshot event for when enemy chomper or spitter dies.
+A multi instrument and pitch variation is used for a wider variety.</value>
 		</property>
 		<property name="color">
 			<value>Red</value>
@@ -176,6 +177,9 @@
 		<relationship name="modulators">
 			<destination>{9e42d421-e4e6-4fea-a546-50cd503df201}</destination>
 		</relationship>
+		<relationship name="fadeInCurve">
+			<destination>{38d12618-7aa7-4d88-a8ad-453be30c48d2}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{b12496f8-67d7-4a96-bc6c-32e52373fa1b}</destination>
 		</relationship>
@@ -266,6 +270,14 @@
 		<property name="amount">
 			<value>9.5</value>
 		</property>
+	</object>
+	<object class="FadeCurve" id="{38d12618-7aa7-4d88-a8ad-453be30c48d2}">
+		<relationship name="startPoint">
+			<destination>{ac964649-d840-4964-a656-d67e52240ccd}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{1fb1eead-d1e9-412f-930f-290d9855a1b8}</destination>
+		</relationship>
 	</object>
 	<object class="FadeCurve" id="{b12496f8-67d7-4a96-bc6c-32e52373fa1b}">
 		<relationship name="startPoint">
@@ -391,6 +403,25 @@
 			<destination>{56f74902-4a57-4b51-88fb-8d1f403d682f}</destination>
 			<destination>{9f50a0d9-22fe-4def-9f62-43025dcedf19}</destination>
 		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{ac964649-d840-4964-a656-d67e52240ccd}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.314329743</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{1fb1eead-d1e9-412f-930f-290d9855a1b8}">
+		<property name="position">
+			<value>0.029999999999999999</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{bf96577e-e020-4c2d-8ff8-97e0c86851bd}">
 		<property name="position">

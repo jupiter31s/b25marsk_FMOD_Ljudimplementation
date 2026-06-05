@@ -114,6 +114,9 @@ Created by using pitch automation.</value>
 		<relationship name="automators">
 			<destination>{6f5ec8af-11ee-47a7-b01c-221d8b31de52}</destination>
 		</relationship>
+		<relationship name="fadeInCurve">
+			<destination>{f607af7b-a89d-4779-9d94-ba6dc1b6806f}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{1397bd30-993b-46ca-9120-4ca5c0bc3824}</destination>
 		</relationship>
@@ -122,6 +125,9 @@ Created by using pitch automation.</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8a5139e1-b023-4e2f-8652-a6cafa6f02f1}">
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -148,6 +154,14 @@ Created by using pitch automation.</value>
 		</property>
 		<relationship name="automationCurves">
 			<destination>{0a58e57c-6916-4e13-9ed4-7c093874ffc7}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{f607af7b-a89d-4779-9d94-ba6dc1b6806f}">
+		<relationship name="startPoint">
+			<destination>{cdb770bc-b3d6-4038-ba97-0ff130aa3635}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{b0776b5e-6412-4906-ba86-91bb8eade051}</destination>
 		</relationship>
 	</object>
 	<object class="FadeCurve" id="{1397bd30-993b-46ca-9120-4ca5c0bc3824}">
@@ -178,6 +192,25 @@ Created by using pitch automation.</value>
 			<destination>{e7ddba48-08e5-43e0-b454-92e1033b2639}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationPoint" id="{cdb770bc-b3d6-4038-ba97-0ff130aa3635}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.00677884696</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{b0776b5e-6412-4906-ba86-91bb8eade051}">
+		<property name="position">
+			<value>0.089999999999999997</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{9c3a6b67-7569-4d8a-936b-9d05014c5d07}">
 		<property name="position">
 			<value>0.25</value>
@@ -200,7 +233,7 @@ Created by using pitch automation.</value>
 	<object class="MixerBusFader" id="{6bd9b9c6-f499-403d-91fa-f0b96fb86a41}" />
 	<object class="ThreeEQEffect" id="{a42abb7c-59e9-4066-8644-b75818a27cbb}">
 		<property name="midGain">
-			<value>-14</value>
+			<value>-1</value>
 		</property>
 		<property name="highGain">
 			<value>-1</value>
@@ -217,7 +250,7 @@ Created by using pitch automation.</value>
 			<value>880</value>
 		</property>
 		<property name="gain">
-			<value>-4</value>
+			<value>-8.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f3a4dc23-0a98-460a-8454-b0830085b84f}">
