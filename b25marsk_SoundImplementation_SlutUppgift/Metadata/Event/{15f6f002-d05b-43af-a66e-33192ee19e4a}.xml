@@ -84,6 +84,9 @@ Location 1 - Cave
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{c36ba3df-5e77-414d-90f8-dd31d993a0d7}">
+		<relationship name="modules">
+			<destination>{bca87165-f347-4b10-ae1d-587e919f714a}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{3df47ec8-d1fd-4fb8-8058-f12265651cb3}</destination>
 		</relationship>
@@ -97,6 +100,7 @@ Location 1 - Cave
 		<relationship name="modules">
 			<destination>{86fa65cb-c78a-469a-b3b7-464d5ae9d48a}</destination>
 			<destination>{8f1ad22b-7425-47f6-ac9b-e002952bcfa0}</destination>
+			<destination>{bca87165-f347-4b10-ae1d-587e919f714a}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{8119630d-bae1-4d76-8185-215f6452b03f}</destination>
@@ -165,9 +169,20 @@ Location 1 - Cave
 			<destination>{dbeaac8a-1b9c-4bf2-a354-9c2b67cec1ea}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotModule" id="{bca87165-f347-4b10-ae1d-587e919f714a}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{f31afde2-fee6-44f4-88db-9e6ec58d2bab}</destination>
+		</relationship>
+		<relationship name="event">
+			<destination>{253e1ae9-3839-4b24-a085-bbd2fa04f22f}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{3df47ec8-d1fd-4fb8-8058-f12265651cb3}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Snapshot</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{1bda28b0-e0aa-4d9e-9936-1b67a70e0fe5}</destination>
@@ -236,6 +251,20 @@ Location 1 - Cave
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{76710aa4-f363-496f-b385-ae950c991462}" />
+	<object class="ADSRModulator" id="{f31afde2-fee6-44f4-88db-9e6ec58d2bab}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>intensity</value>
+		</property>
+		<property name="attackTime">
+			<value>2000</value>
+		</property>
+		<property name="peakValue">
+			<value>100</value>
+		</property>
+		<property name="sustainValue">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{1bda28b0-e0aa-4d9e-9936-1b67a70e0fe5}">
 		<relationship name="effects">
 			<destination>{4ee63d65-06de-4dcd-97aa-2e12676fd6dd}</destination>
