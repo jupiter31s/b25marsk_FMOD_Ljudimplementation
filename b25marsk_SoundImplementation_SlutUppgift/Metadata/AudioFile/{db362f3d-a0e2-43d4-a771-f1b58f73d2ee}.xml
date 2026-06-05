@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{db362f3d-a0e2-43d4-a771-f1b58f73d2ee}">
 		<property name="assetPath">
-			<value>Sounds/SFX/Footsteps/footsteps metal.WAV</value>
+			<value>Sounds/SFX/Footsteps/Surfaces/Metal/footsteps metal.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

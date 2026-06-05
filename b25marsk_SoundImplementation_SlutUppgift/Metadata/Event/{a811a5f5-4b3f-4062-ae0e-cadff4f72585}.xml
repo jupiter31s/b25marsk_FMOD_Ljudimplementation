@@ -162,6 +162,7 @@ Created by using pitch automation.</value>
 		<relationship name="effects">
 			<destination>{6bd9b9c6-f499-403d-91fa-f0b96fb86a41}</destination>
 			<destination>{a42abb7c-59e9-4066-8644-b75818a27cbb}</destination>
+			<destination>{571c1613-4bd6-4649-a783-364a023d87e6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fe979420-fab2-4807-a570-ef52d1cd845a}" />
@@ -199,7 +200,24 @@ Created by using pitch automation.</value>
 	<object class="MixerBusFader" id="{6bd9b9c6-f499-403d-91fa-f0b96fb86a41}" />
 	<object class="ThreeEQEffect" id="{a42abb7c-59e9-4066-8644-b75818a27cbb}">
 		<property name="midGain">
-			<value>-37</value>
+			<value>-14</value>
+		</property>
+		<property name="highGain">
+			<value>-1</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{571c1613-4bd6-4649-a783-364a023d87e6}">
+		<property name="threshold">
+			<value>-39</value>
+		</property>
+		<property name="attackTime">
+			<value>280</value>
+		</property>
+		<property name="releaseTime">
+			<value>880</value>
+		</property>
+		<property name="gain">
+			<value>-4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f3a4dc23-0a98-460a-8454-b0830085b84f}">
@@ -218,7 +236,7 @@ Created by using pitch automation.</value>
 			<value>0.11</value>
 		</property>
 		<property name="value">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<property name="curveShape">
 			<value>0.422038853</value>
