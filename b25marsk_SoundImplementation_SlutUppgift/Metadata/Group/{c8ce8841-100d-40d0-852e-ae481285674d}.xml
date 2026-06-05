@@ -5,7 +5,7 @@
 			<value>Cyan Light 1</value>
 		</property>
 		<property name="volume">
-			<value>3.5</value>
+			<value>5</value>
 		</property>
 		<property name="name">
 			<value>Int_Door</value>
