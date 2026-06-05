@@ -2,7 +2,9 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6a3688ff-be68-4955-833b-2d7c3384eaf5}">
 		<property name="note">
-			<value>Oneshot event for when enemy chomper attacks by biting.</value>
+			<value>Oneshot event for when enemy chomper attacks by biting.
+
+Uses pitch randomazation for variety.</value>
 		</property>
 		<property name="color">
 			<value>Red</value>
@@ -114,6 +116,9 @@
 		<property name="timelockedOffset">
 			<value>0.25999999999999995</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{bb243087-1e73-46b5-8458-073e2a15e5e0}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{1594adfc-6399-4688-a046-44993bcd0394}</destination>
 		</relationship>
@@ -152,8 +157,11 @@
 			<value>0.20000000000000001</value>
 		</property>
 		<property name="pitch">
-			<value>-0.900000036</value>
+			<value>-1.20000005</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{439293c5-5dac-40bb-ab35-5e27dc722d5d}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{6c4c83ab-683f-4e9a-8ec9-c696043097c3}</destination>
 		</relationship>
@@ -183,6 +191,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{678f1f68-ce9e-4e87-8903-c56605d12487}" />
 	<object class="MixerBusFader" id="{8106b646-e446-40e6-9821-2653f3775544}" />
+	<object class="RandomizerModulator" id="{bb243087-1e73-46b5-8458-073e2a15e5e0}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>12.5</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{1594adfc-6399-4688-a046-44993bcd0394}">
 		<relationship name="startPoint">
 			<destination>{c7466fc1-6bda-434e-967d-e58b039d9701}</destination>
@@ -208,6 +224,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{68755ae9-8990-481f-99b6-ddb37c87242e}" />
+	<object class="RandomizerModulator" id="{439293c5-5dac-40bb-ab35-5e27dc722d5d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>13.5</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{0f9cd21d-da09-41f6-8db4-30d42cab5f6f}">
 		<relationship name="effects">
 			<destination>{923ac858-4658-4500-853e-29d2abc01737}</destination>

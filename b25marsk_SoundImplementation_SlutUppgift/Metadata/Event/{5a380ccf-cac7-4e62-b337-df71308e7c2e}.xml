@@ -98,10 +98,10 @@ Created by using lower pitch.</value>
 	<object class="MixerBusPanner" id="{c8e2acc4-7485-4d01-8c35-c3d9d4e75b81}" />
 	<object class="SingleSound" id="{db623925-d229-4dfa-a9e6-da4e886f3a94}">
 		<property name="length">
-			<value>1.7000000000000002</value>
+			<value>1.9000000000000001</value>
 		</property>
 		<property name="pitch">
-			<value>-17</value>
+			<value>-20</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{e86645ff-e9fc-4d10-93b0-7a3c1cdd077f}</destination>
@@ -180,7 +180,7 @@ Created by using lower pitch.</value>
 	</object>
 	<object class="AutomationPoint" id="{40920b55-3cd2-4595-816e-e2473a6062da}">
 		<property name="position">
-			<value>0.65000000000000002</value>
+			<value>0.84999999999999987</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -191,7 +191,7 @@ Created by using lower pitch.</value>
 	</object>
 	<object class="AutomationPoint" id="{82ae465c-e753-4793-9ff2-93e7babc9160}">
 		<property name="position">
-			<value>1.7000000000000002</value>
+			<value>1.9000000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>

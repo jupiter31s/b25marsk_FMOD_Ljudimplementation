@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{76e86e92-a466-4578-bd91-c5b2a9b2e0ff}">
 		<property name="assetPath">
-			<value>Sounds/SFX/Voice/Enemies/voice enemy gunner shield - Trimmed - Trimmed.wav</value>
+			<value>Sounds/SFX/Voice/Enemies/Gunner sounds/voice enemy gunner shield - Trimmed - Trimmed.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

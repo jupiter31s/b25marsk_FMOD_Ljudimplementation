@@ -98,10 +98,10 @@ Created by using lower pitch, 3EQ and tremolo effects.</value>
 	<object class="MixerBusPanner" id="{4dc7f4f9-fa40-4a29-b73b-491a5a6c4063}" />
 	<object class="SingleSound" id="{864dbd3d-23d3-47bd-b906-8df8f39cd88e}">
 		<property name="length">
-			<value>1.7999999999999998</value>
+			<value>1.4000000000000001</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>15.343400704074927</value>
+			<value>15.805862041817273</value>
 		</property>
 		<property name="volume">
 			<value>1.5</value>
@@ -121,7 +121,7 @@ Created by using lower pitch, 3EQ and tremolo effects.</value>
 	</object>
 	<object class="EventMixerGroup" id="{c550cbce-0c28-4564-a409-8d126f9584e2}">
 		<property name="volume">
-			<value>8.5</value>
+			<value>3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -184,7 +184,7 @@ Created by using lower pitch, 3EQ and tremolo effects.</value>
 	</object>
 	<object class="AutomationPoint" id="{4da4e5dd-0482-45b1-bce7-878534ab3edf}">
 		<property name="position">
-			<value>0.20000000000000001</value>
+			<value>0.20000000000000015</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -192,18 +192,18 @@ Created by using lower pitch, 3EQ and tremolo effects.</value>
 	</object>
 	<object class="AutomationPoint" id="{1bfee414-06c2-4d89-b27c-9527d4477294}">
 		<property name="position">
-			<value>1.5</value>
+			<value>0.88</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.171848595</value>
+			<value>-0.236348882</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a938fcd7-3b97-4884-ba3b-5597a21611c0}">
 		<property name="position">
-			<value>1.7999999999999998</value>
+			<value>1.4000000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>

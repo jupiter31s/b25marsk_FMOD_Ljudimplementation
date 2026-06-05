@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f4cd3448-bd2e-4376-b8cd-c8e22b480595}">
 		<property name="assetPath">
-			<value>Sounds/SFX/Voice/Enemies/gunner random noises.WAV</value>
+			<value>Sounds/SFX/Voice/Enemies/Gunner sounds/gunner random noises.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

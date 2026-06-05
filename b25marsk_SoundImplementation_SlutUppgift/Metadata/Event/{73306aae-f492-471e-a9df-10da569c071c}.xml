@@ -2,7 +2,9 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{73306aae-f492-471e-a9df-10da569c071c}">
 		<property name="note">
-			<value>Oneshot event for when enemy Chomper walks.</value>
+			<value>Oneshot event for when enemy Chomper walks.
+
+Uses pitch randomazation for variety.</value>
 		</property>
 		<property name="color">
 			<value>Red</value>
@@ -108,6 +110,9 @@
 		<property name="pitch">
 			<value>-17</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{6e2697f5-7cbf-4a1e-974f-1bb41b1457bd}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{171a6eac-4ed1-4381-ae8a-188efabe4ff4}</destination>
 		</relationship>
@@ -140,6 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{0e5bf02c-8d19-4710-adbe-c30d8188369c}" />
 	<object class="MixerBusFader" id="{c359b53b-fe8f-4029-82ff-3363660602bf}" />
+	<object class="RandomizerModulator" id="{6e2697f5-7cbf-4a1e-974f-1bb41b1457bd}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>13.5</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{171a6eac-4ed1-4381-ae8a-188efabe4ff4}">
 		<relationship name="startPoint">
 			<destination>{2a2477c3-c16b-4815-b002-a64c568c3ccc}</destination>

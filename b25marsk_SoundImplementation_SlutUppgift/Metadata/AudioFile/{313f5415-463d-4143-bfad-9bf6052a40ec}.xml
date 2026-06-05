@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{313f5415-463d-4143-bfad-9bf6052a40ec}">
 		<property name="assetPath">
-			<value>Sounds/SFX/Voice/Enemies/voice spitter attack.WAV</value>
+			<value>Sounds/SFX/Voice/Enemies/SmallEnemy Sounds/voice spitter attack.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
