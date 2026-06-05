@@ -101,11 +101,14 @@ Uses pitch randomazation for variety.</value>
 	</object>
 	<object class="MixerBusPanner" id="{cffeab98-7940-41f2-944b-01cd6ee6cb1e}" />
 	<object class="SingleSound" id="{cf030fa9-20da-4e4e-8fad-2b74da5fcaa2}">
+		<property name="start">
+			<value>0.16</value>
+		</property>
 		<property name="length">
-			<value>0.3999999999999998</value>
+			<value>0.36499999999999977</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>4.423452346465333</value>
+			<value>4.4365625333880017</value>
 		</property>
 		<property name="pitch">
 			<value>-17</value>
@@ -181,7 +184,7 @@ Uses pitch randomazation for variety.</value>
 	<object class="SpatialiserEffect" id="{768fd720-1fbd-4564-9b60-4bebaad56c14}" />
 	<object class="AutomationPoint" id="{2a2477c3-c16b-4815-b002-a64c568c3ccc}">
 		<property name="position">
-			<value>0</value>
+			<value>0.16</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -192,7 +195,7 @@ Uses pitch randomazation for variety.</value>
 	</object>
 	<object class="AutomationPoint" id="{17c485da-c9af-46d4-8a88-c6c4258b6e08}">
 		<property name="position">
-			<value>0.040000000000000001</value>
+			<value>0.20000000000000009</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -200,7 +203,7 @@ Uses pitch randomazation for variety.</value>
 	</object>
 	<object class="AutomationPoint" id="{3ea8933c-4945-4f30-9871-450fb2e1c48e}">
 		<property name="position">
-			<value>0.14000000000000001</value>
+			<value>0.26500000000000012</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -211,7 +214,7 @@ Uses pitch randomazation for variety.</value>
 	</object>
 	<object class="AutomationPoint" id="{9312b592-983d-4fab-aff9-57154a5745e4}">
 		<property name="position">
-			<value>0.3999999999999998</value>
+			<value>0.5249999999999998</value>
 		</property>
 		<property name="value">
 			<value>0</value>

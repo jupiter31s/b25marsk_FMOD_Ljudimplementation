@@ -316,6 +316,7 @@
 		<relationship name="effects">
 			<destination>{b3cb6bf2-742b-4fc4-a97c-3c1bcd469eb4}</destination>
 			<destination>{6d678165-3a53-431f-b667-de28a1223e98}</destination>
+			<destination>{7d85555f-e358-452c-8444-38e5ca95ec17}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2e9b8f91-7af4-4bdc-9e2d-f2e891d666ed}" />
@@ -411,6 +412,11 @@
 	<object class="FlangerEffect" id="{6d678165-3a53-431f-b667-de28a1223e98}">
 		<property name="rate">
 			<value>3.4000001</value>
+		</property>
+	</object>
+	<object class="PitchShifterEffect" id="{7d85555f-e358-452c-8444-38e5ca95ec17}">
+		<property name="pitch">
+			<value>0.959999979</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{fbd0b0db-296c-4a10-a2b4-e911b11ee4c6}">
