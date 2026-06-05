@@ -205,7 +205,7 @@ Player attack voice is also randomized but has a 65% chance of being played. </v
 			<value>0.5</value>
 		</property>
 		<property name="name">
-			<value>Audio 2</value>
+			<value>Extra</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{4de16676-ac1c-4756-a518-e350c3eeaee7}</destination>

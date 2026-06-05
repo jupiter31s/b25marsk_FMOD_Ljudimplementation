@@ -155,7 +155,7 @@ Surface 2 - Metal
 			<value>2</value>
 		</property>
 		<property name="volume">
-			<value>4.5</value>
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{f8758453-043d-410d-8672-02deb34263ce}</destination>
@@ -163,6 +163,7 @@ Surface 2 - Metal
 			<destination>{8b45c65c-9f76-44d4-b5ab-8842fafcb198}</destination>
 			<destination>{04370349-1b85-452e-ae11-3ce03d7aab10}</destination>
 			<destination>{c24ecd8e-0ebf-4857-bd93-7fa707fc1c45}</destination>
+			<destination>{0cc91f7d-be2f-4a9b-9067-23dd6d6ba843}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a97267ed-06e9-42f3-96a7-43f24fba876d}">
@@ -182,9 +183,6 @@ Surface 2 - Metal
 	<object class="MultiSound" id="{1c70f13e-3385-484b-b2a1-b6c94412a511}">
 		<property name="triggerProbabilityEnabled">
 			<value>true</value>
-		</property>
-		<property name="triggerProbability">
-			<value>94.5</value>
 		</property>
 		<property name="length">
 			<value>3</value>
@@ -346,6 +344,14 @@ Surface 2 - Metal
 			<destination>{f6c21969-c4e1-4b71-9070-49410543e6bf}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{0cc91f7d-be2f-4a9b-9067-23dd6d6ba843}">
+		<property name="startOffset">
+			<value>11.5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{72b15a68-b55d-4105-8fe6-22ca0df0223a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{a23870fa-8386-4945-a925-f3d61c932297}">
 		<relationship name="effects">
 			<destination>{c5c1de9d-524e-4496-a7c3-853ac8d9f9f2}</destination>
@@ -420,22 +426,19 @@ Surface 2 - Metal
 	<object class="MixerBusFader" id="{c5c1de9d-524e-4496-a7c3-853ac8d9f9f2}" />
 	<object class="ThreeEQEffect" id="{54cc3062-417d-4d27-b137-f8f01128299b}">
 		<property name="lowGain">
-			<value>-5</value>
-		</property>
-		<property name="midGain">
-			<value>0.5</value>
+			<value>-20.5</value>
 		</property>
 		<property name="highGain">
-			<value>2</value>
+			<value>-3.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{86a3db94-5711-40d1-9d41-3770ef5fee45}" />
 	<object class="ThreeEQEffect" id="{5ddf4a0f-3294-4769-8adc-953e65a73cbd}">
 		<property name="lowGain">
-			<value>-6</value>
+			<value>-3.5</value>
 		</property>
 		<property name="highGain">
-			<value>-1</value>
+			<value>-6.5</value>
 		</property>
 	</object>
 </objects>

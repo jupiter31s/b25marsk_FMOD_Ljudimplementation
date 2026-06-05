@@ -236,6 +236,7 @@ Created by using pitch automation.</value>
 		<relationship name="effects">
 			<destination>{ee3c8983-65dc-42a2-92bd-fbf9989fde34}</destination>
 			<destination>{835a5b56-4f6b-46ce-97ae-c63fbba1f345}</destination>
+			<destination>{17d80401-12fa-43ae-b22c-d3a015d79394}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{81525937-a3ea-4ffb-a1b8-ce175f23a215}" />
@@ -293,12 +294,23 @@ Created by using pitch automation.</value>
 			<value>1.03999996</value>
 		</property>
 	</object>
+	<object class="ThreeEQEffect" id="{17d80401-12fa-43ae-b22c-d3a015d79394}">
+		<property name="lowGain">
+			<value>-26.5</value>
+		</property>
+		<property name="highGain">
+			<value>-10.5</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{0565b169-8379-449f-be89-1f30283bb87f}">
 		<property name="position">
 			<value>0.85000000000000009</value>
 		</property>
 		<property name="value">
 			<value>5</value>
+		</property>
+		<property name="curveShape">
+			<value>0.168386474</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{b3418945-fdc6-4c15-bc1e-6d26b6138f21}">
