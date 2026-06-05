@@ -79,7 +79,11 @@ Up (1) - when enemy shield goes up</value>
 			<destination>{cd86f096-39d0-4c68-8b62-4a616250fc39}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{9938f626-556a-4224-a27e-7f479f1e807c}" />
+	<object class="Timeline" id="{9938f626-556a-4224-a27e-7f479f1e807c}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
 	<object class="ParameterProxy" id="{8e75ad72-27c7-44ad-88a3-70e98c26daef}">
 		<relationship name="modules">
 			<destination>{32742133-8bf9-476d-bdb4-0eb07a9e752a}</destination>
